@@ -44,5 +44,11 @@
   "name": "ZenFire",
   "path": "/zenfire",
   "jsonLd": []
+ },
+ {
+  "file": "ZenKitchen.dc.html",
+  "name": "ZenKitchen",
+  "path": "/trades/kitchen-equipment-software",
+  "jsonLd": []
  }
 ]
