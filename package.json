@@ -5,10 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "crawl": "node scripts/crawl.mjs",
-    "copy-assets": "node scripts/copy-assets.mjs",
-    "export-redirects": "node scripts/export-redirects.mjs"
+    "start": "next start"
   },
   "dependencies": {
     "next": "16.4.3",

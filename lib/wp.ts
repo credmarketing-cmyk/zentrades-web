@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { gunzipSync } from 'node:zlib';
 
-// Content crawled from the WordPress site by scripts/crawl.mjs.
+// Content crawled from the WordPress site.
 const DATA_DIR = path.join(process.cwd(), 'data');
 
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://zentrades.pro').replace(/\/$/, '');
