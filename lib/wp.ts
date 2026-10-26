@@ -1,6 +1,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { gunzipSync } from 'node:zlib';
+import { TRACKING_BODY, TRACKING_HEAD } from '@/lib/tracking';
 
 // Content crawled from the WordPress site.
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -80,7 +81,7 @@ function headTagToString({ tag, attrs, inner }: HeadTag): string {
 export function renderDocument(page: WpPage): string {
   const head = page.head.map(headTagToString).join('\n');
   return withSiteUrl(
-    `<!DOCTYPE html>\n<html${attrsToString(page.htmlAttrs)}>\n<head>\n<meta charset="UTF-8">\n${head}\n</head>\n` +
-      `<body${attrsToString(page.bodyAttrs)}>${page.body}</body>\n</html>\n`,
+    `<!DOCTYPE html>\n<html${attrsToString(page.htmlAttrs)}>\n<head>\n<meta charset="UTF-8">\n${TRACKING_HEAD}\n${head}\n</head>\n` +
+      `<body${attrsToString(page.bodyAttrs)}>${TRACKING_BODY}${page.body}</body>\n</html>\n`,
   );
 }
