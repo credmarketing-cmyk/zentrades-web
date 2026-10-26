@@ -1,0 +1,33 @@
+import { getManifest, loadNotFoundPage, loadPage, renderDocument } from '@/lib/wp';
+import { applySiteChrome } from '@/lib/chrome';
+import redesigned from '@/components/redesign/pages.json';
+
+// Every migrated WordPress URL is pre-rendered at build time from the crawled
+// HTML. Unknown paths fall through to app/not-found.tsx.
+//
+// To rebuild a page in React, add app/<its-path>/page.tsx and list its path in
+// components/redesign/pages.json (or exclude it below): a more specific route
+// always wins over this catch-all.
+export const dynamic = 'force-static';
+export const dynamicParams = false;
+
+const reactPages = new Set(['/', ...redesigned.map((p) => p.path)]);
+
+export function generateStaticParams() {
+  return Object.keys(getManifest())
+    .filter((p) => !reactPages.has(p))
+    .map((p) => ({ slug: p.slice(1).split('/') }));
+}
+
+export async function GET(_req: Request, { params }: { params: Promise<{ slug: string[] }> }) {
+  const { slug } = await params;
+  const pathname = '/' + slug.map(decodeURIComponent).join('/');
+  const page = loadPage(pathname) ?? loadNotFoundPage();
+  // Redesigned navigation and footer for the page's vertical.
+  const withChrome = { ...page, body: applySiteChrome(page.body, page.path === '/404' ? '/404' : pathname) };
+
+  return new Response(renderDocument(withChrome), {
+    status: page.path === '/404' ? 404 : 200,
+    headers: { 'content-type': 'text/html; charset=utf-8' },
+  });
+}

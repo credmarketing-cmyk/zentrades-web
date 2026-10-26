@@ -1,0 +1,134 @@
+[
+    {
+        "source": "/zenfire/case-study",
+        "destination": "/case-study",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/blog/job-description-fire-inspector",
+        "destination": "/zenfire/blog/fire-inspector-job-description",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenhvac/blog/hvac-sales-tips/Formula1",
+        "destination": "/zenhvac/blog/hvac-sales-tips",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/tool/hvac-duct-calculator",
+        "destination": "/tools",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/blog/sprinkler-system-cost/3Demo1",
+        "destination": "/zenfire/blog/sprinkler-system-cost/",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/free-estimate-generator",
+        "destination": "/tool/free-estimate-generator",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenplumbing/blog/plumbing-seo/3Formula1",
+        "destination": "/zenplumbing/blog/plumbing-seo",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/comparison/inspection-point-alternatives",
+        "destination": "/zenfire/comparison/inspect-point-alternatives",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/service-price-calculator",
+        "destination": "/tool/service-price-calculator",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/free-estimate-generator",
+        "destination": "/tool/free-estimate-generator/",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/before-after-image-generator",
+        "destination": "/tool/before-after-image-generator",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/blog/compliant-quest-alternatives",
+        "destination": "/zenfire/comparison/compliance-quest-alternatives",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/flat-rate-pricing",
+        "destination": "/field-service-management/blog/flat-rate-pricing",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/aboutus",
+        "destination": "/zenfire/about-us",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/checklist/fire-extinguisher-training",
+        "destination": "/zenfire/checklist/fire-extinguisher-training-free-checklist",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/blogs",
+        "destination": "/blog",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/checklist/blog/fire-safety-policy-and-procedure-document-review-checklist",
+        "destination": "/zenfire/checklist/fire-safety-policy-and-procedure-document-review-checklist/",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/checklist/blog/accuracy-and-compliance-fire-alarms-systems",
+        "destination": "/zenfire/checklist/",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/checklist/electrical-panel-clearance",
+        "destination": "/zenfire/checklist",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/checklist/compatibility-and-robustness-fire-alarm-systems",
+        "destination": "/zenfire/checklist",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/checklist/blog/compatibility-and-robustness-fire-alarm-systems",
+        "destination": "/zenfire/checklist",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire-1/about-us",
+        "destination": "/zenfire/about-us",
+        "permanent": true,
+        "regex": false
+    }
+]

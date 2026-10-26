@@ -1,0 +1,42 @@
+[
+ {
+  "file": "ZenTrades Home.dc.html",
+  "name": "Home",
+  "path": "/",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenHVAC.dc.html",
+  "name": "ZenHvac",
+  "path": "/zenhvac",
+  "jsonLd": [
+   "{\n \"@context\": \"https://schema.org\",\n \"@type\": \"FAQPage\",\n \"mainEntity\": [\n  {\n   \"@type\": \"Question\",\n   \"name\": \"What is HVAC software?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"HVAC software is a tool that helps heating and cooling contractors run their business from one place. It covers scheduling, dispatching techs, estimates, invoicing, payments, customer records and maintenance agreements, so you can drop the paper forms and spreadsheets.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"What is the best HVAC software for small businesses?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"The best HVAC software for a small business is one that’s easy to learn, works on a tech’s phone and doesn’t need a full-time office person to run. ZenHVAC is built for shops with a handful of techs, includes QuickBooks sync in every plan and comes with a dedicated account manager to help you set up.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"How much does HVAC software cost?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"ZenHVAC is priced per license, with different license types for owners, office staff and technicians. Most licenses fall around $50 to $70 per month, billed annually. Book a demo and we’ll give you an exact price for your team size.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"Does ZenHVAC work with QuickBooks?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Yes. ZenHVAC syncs invoices, payments and customers with QuickBooks, and the integration is included in every plan at no extra cost.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"Can ZenHVAC handle HVAC maintenance agreements?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Yes. You can create and renew service agreements, add custom tasks to each plan, and let ZenHVAC book recurring visits and send reminders automatically.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"Does the ZenHVAC app work without internet?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Yes. Techs can keep working with no signal, and everything syncs once they’re back online.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"Is ZenHVAC good for commercial HVAC companies?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Yes. ZenHVAC handles multi-site customers, equipment records for every unit and recurring maintenance contracts, along with residential service and installs.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"How long does it take to switch to ZenHVAC?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Most HVAC teams are live within days. Our onboarding team moves your data over and trains your office and techs, so you don’t have to stop taking calls while you switch.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"Does ZenHVAC include HVAC scheduling and dispatch software?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Yes. Scheduling and dispatch are built in. Drag jobs onto your techs’ calendars, send them to their phones instantly and let LISA, our AI assistant, plan the best route.\"\n   }\n  }\n ]\n}"
+  ]
+ },
+ {
+  "file": "ZenPlumbing.dc.html",
+  "name": "ZenPlumbing",
+  "path": "/zenplumbing",
+  "jsonLd": [
+   "{\n \"@context\": \"https://schema.org\",\n \"@type\": \"FAQPage\",\n \"mainEntity\": [\n  {\n   \"@type\": \"Question\",\n   \"name\": \"What is plumbing software?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Plumbing software helps plumbing businesses run everything from one place: booking jobs, dispatching plumbers, quoting, invoicing, taking payments, and keeping customer records. It replaces paper work orders, whiteboards, and spreadsheets.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"What is the best plumbing software for small businesses?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"The best plumbing software for a small business is easy to learn, works on your plumbers’ phones, and doesn’t need a full-time office person to run. ZenPlumbing is built for small and growing shops, includes QuickBooks sync in every plan, and comes with hands-on setup help.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"How much does plumbing software cost?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"ZenPlumbing is priced per license, with different license types for owners, office staff, and plumbers. Most licenses fall around $50 to $70 per month, billed annually. Book a demo for an exact price for your team.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"Does ZenPlumbing work with QuickBooks?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Yes. ZenPlumbing syncs invoices, payments, and customers with QuickBooks, and it’s included in every plan at no extra cost.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"Is there a CRM for plumbers in ZenPlumbing?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Yes. ZenPlumbing includes a plumbing CRM that keeps every customer, address, past job, and quote in one record, with automatic follow-ups and reminders.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"Can I create plumbing estimates on site?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Yes. Plumbers can build estimates from your flat-rate price book, show customers options, and get them signed right on their phone or tablet.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"Does the ZenPlumbing app work without internet?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Yes. Plumbers can keep working with no signal, and everything syncs once they’re back online.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"Does ZenPlumbing include plumbing scheduling and dispatch software?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Yes. Drag jobs onto your plumbers’ schedules, send them to their phones instantly, and let LISA, our AI assistant, plan the best route.\"\n   }\n  },\n  {\n   \"@type\": \"Question\",\n   \"name\": \"How long does it take to switch to ZenPlumbing?\",\n   \"acceptedAnswer\": {\n    \"@type\": \"Answer\",\n    \"text\": \"Most plumbing teams are live within days. Our onboarding team moves your data and trains your office and plumbers, so you keep taking calls while you switch.\"\n   }\n  }\n ]\n}"
+  ]
+ },
+ {
+  "file": "ZenElectrical.dc.html",
+  "name": "ZenElectrical",
+  "path": "/zenelectrical",
+  "jsonLd": []
+ },
+ {
+  "file": "Elevator.dc.html",
+  "name": "Elevator",
+  "path": "/elevator",
+  "jsonLd": []
+ },
+ {
+  "file": "Water Damage Restoration.dc.html",
+  "name": "WaterRestoration",
+  "path": "/trades/water-restoration-software",
+  "jsonLd": []
+ }
+]
