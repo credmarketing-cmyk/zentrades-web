@@ -59,6 +59,9 @@ const NAV_CSS = `
   -webkit-backdrop-filter: saturate(1.6) blur(16px); border-bottom: 1px solid var(--line); }
 .zt-nav a { color: inherit; text-decoration: none; }
 .zt-nav button { font: inherit; color: inherit; background: none; border: 0; padding: 0; margin: 0; cursor: pointer; }
+/* The WordPress theme colours buttons pink on focus; clicking a menu must not. */
+.zt-nav button:focus, .zt-nav button:active { background: none; color: inherit; outline: none; box-shadow: none; }
+.zt-nav a:focus, .zt-nav a:active { outline: none; }
 .zt-nav .bar { max-width: calc(1400px + 2 * var(--zt-gutter)); margin: 0 auto; padding: 14px var(--zt-gutter); display: flex; align-items: center; gap: 32px; min-height: 76px; }
 .zt-nav .logo { display: flex; align-items: center; flex-shrink: 1; min-width: 0; }
 .zt-nav .logo img { height: 26px; width: auto; max-width: 100%; object-fit: contain; object-position: left center; display: block; }
@@ -68,7 +71,7 @@ const NAV_CSS = `
 .zt-nav .trigger { display: flex; align-items: center; gap: 7px; font-size: 15px; font-weight: 500; color: #2A2523; padding: 10px 14px;
   border-radius: 10px; white-space: nowrap; transition: background .15s, color .15s; }
 .zt-nav .trigger:hover, .zt-nav .trigger[aria-expanded="true"] { background: var(--hover); color: var(--ink); }
-.zt-nav .trigger:focus-visible, .zt-nav a:focus-visible, .zt-nav button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.zt-nav .trigger:focus-visible, .zt-nav a:focus-visible, .zt-nav button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 .zt-nav .caret { width: 9px; height: 9px; opacity: .5; transition: transform .2s; }
 .zt-nav .trigger[aria-expanded="true"] .caret { transform: rotate(180deg); }
 .zt-nav .actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
