@@ -19,6 +19,7 @@ Copy `.env.example` to `.env.local` and set:
 | Variable | Purpose |
 | --- | --- |
 | `NEXT_PUBLIC_SITE_URL` | Production origin used in canonical URLs, Open Graph, JSON-LD and the sitemap. Defaults to `https://zentrades.pro`. |
+| `FORMS_WEBHOOK_URL` | Optional. Where checklist/form submissions are sent (JSON POST). See "Checklists, forms and post grids". |
 | `WP_BACKEND_URL` | Optional. A WordPress install that still processes form submissions and AJAX. `/wp-admin/admin-ajax.php` and `/wp-json/*` are proxied to it. |
 
 ## How it's put together
@@ -75,6 +76,28 @@ the mobile menu.
   feature page, then Book a Demo.
 - Footer columns come from the redesign; labels resolve through `lib/links.js`.
   The big footer logo follows the vertical (ZenFire uses its site logo in white).
+
+### Checklists, forms and post grids
+
+WordPress plugin shortcodes in the crawled pages are replaced with native
+versions (`lib/shortcodes.ts`), because the Forminator and YMC Filter plugins
+weren't part of the WordPress backup:
+
+- `[forminator_form]` checklists (649 inspection checklists on ~654 pages):
+  rendered from `data/forms.json.gz` by `lib/forms.ts` as server-side HTML, so
+  every question is indexable page text. `/zt-forms.js` adds Yes / No / N/A
+  answers, a progress bar, saving progress in the browser, Clear, and
+  **Print / Save as PDF** (prints a clean report of just the checklist).
+- Short forms (the blog-sidebar questionnaire on 20 posts, one lead form):
+  submit to `app/api/forms/route.ts`.
+- `[forminator_quiz]`: the conference quiz on `/zenfire/blog/fire-conferences-in-2025`.
+- `[ymc_filter]`: the Private Equity post grid (`lib/post-grid.ts`, `data/post-grids.json`).
+
+**Submissions are off until configured.** Set `FORMS_WEBHOOK_URL` (a Zapier /
+Make / HubSpot / CRM webhook) and `/api/forms` forwards each submission there as
+JSON (`formId`, `kind`, `page`, `data`, `submittedAt`); checklists then also
+show a Submit button. Without it, short forms show an email fallback and
+checklists offer Print / Save as PDF only.
 
 ### Rebuilding a page in React
 

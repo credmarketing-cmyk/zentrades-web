@@ -1,5 +1,6 @@
 import { getManifest, loadNotFoundPage, loadPage, renderDocument } from '@/lib/wp';
 import { applySiteChrome } from '@/lib/chrome';
+import { applyShortcodes } from '@/lib/shortcodes';
 import redesigned from '@/components/redesign/pages.json';
 
 // Every migrated WordPress URL is pre-rendered at build time from the crawled
@@ -24,7 +25,10 @@ export async function GET(_req: Request, { params }: { params: Promise<{ slug: s
   const pathname = '/' + slug.map(decodeURIComponent).join('/');
   const page = loadPage(pathname) ?? loadNotFoundPage();
   // Redesigned navigation and footer for the page's vertical.
-  const withChrome = { ...page, body: applySiteChrome(page.body, page.path === '/404' ? '/404' : pathname) };
+  // Native checklists, forms and post grids in place of plugin shortcodes,
+  // then the redesigned navigation and footer for the page's vertical.
+  const body = applyShortcodes(page.body, page.title);
+  const withChrome = { ...page, body: applySiteChrome(body, page.path === '/404' ? '/404' : pathname) };
 
   return new Response(renderDocument(withChrome), {
     status: page.path === '/404' ? 404 : 200,
