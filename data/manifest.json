@@ -3,7 +3,7 @@
   "file": "index.json",
   "type": "page",
   "modified": "2026-10-20T17:17:48+00:00",
-  "title": "ZenTrades | A Field Service Management Software - ZenTrades",
+  "title": "Field Service Management Software for Trades | ZenTrades",
   "noindex": false
  },
  "/test": {
@@ -1375,7 +1375,7 @@
   "file": "zenfire.json",
   "type": "page",
   "modified": "2026-07-09T19:41:29+00:00",
-  "title": "Fire Inspection Software | For Fire Protection Industry | ZenFire - ZenTrades",
+  "title": "Fire Inspection Software for Fire Protection | ZenFire",
   "noindex": false
  },
  "/zenfire/contact-us": {
@@ -1431,14 +1431,14 @@
   "file": "zenplumbing.json",
   "type": "page",
   "modified": "2025-06-13T15:40:23+00:00",
-  "title": "Zenplumbing-Home - ZenTrades",
+  "title": "Plumbing Software for Plumbers | ZenPlumbing by ZenTrades",
   "noindex": false
  },
  "/zenhvac": {
   "file": "zenhvac.json",
   "type": "page",
   "modified": "2025-03-14T19:05:36+00:00",
-  "title": "ZenHVAC - ZenTrades",
+  "title": "HVAC Software for Contractors | ZenHVAC by ZenTrades",
   "noindex": false
  },
  "/zenfire/features/recurring-inspection": {
