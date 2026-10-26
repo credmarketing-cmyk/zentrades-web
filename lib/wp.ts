@@ -3,7 +3,7 @@ import path from 'node:path';
 import { gunzipSync } from 'node:zlib';
 import { TRACKING_BODY, TRACKING_HEAD } from '@/lib/tracking';
 
-// Content crawled from the WordPress site.
+// Content crawled from the WordPress site by scripts/crawl.mjs.
 const DATA_DIR = path.join(process.cwd(), 'data');
 
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://zentrades.pro').replace(/\/$/, '');
@@ -42,9 +42,13 @@ export function getManifest(): Record<string, ManifestEntry> {
 }
 
 // Page files are stored gzipped (<file>.json.gz) to keep the repository small.
+// WordPress printed one script URL (the Custom CSS & JS plugin's) without a
+// scheme, so the crawl left it pointing at the local copy; make it relative.
+// Browsers otherwise ask visitors for local network access on every page.
 function readJson(file: string) {
   const gz = file + '.gz';
-  return JSON.parse(existsSync(gz) ? gunzipSync(readFileSync(gz)).toString('utf8') : readFileSync(file, 'utf8'));
+  const text = existsSync(gz) ? gunzipSync(readFileSync(gz)).toString('utf8') : readFileSync(file, 'utf8');
+  return JSON.parse(text.replaceAll('//localhost:8080/', '/'));
 }
 
 export function loadPage(pathname: string): WpPage | null {
