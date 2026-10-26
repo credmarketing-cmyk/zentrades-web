@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ZenTrades website
 
-## Getting Started
+Marketing site for [zentrades.pro](https://zentrades.pro), migrated from WordPress to Next.js.
+See [MIGRATION.md](MIGRATION.md) for the SEO rules every page follows and the launch checklist.
 
-First, run the development server:
+## Run locally
+
+Requires Node.js 20.9 or newer.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000. `npm run build` checks a production build; `npm run lint` runs ESLint.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project layout
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Path | What lives there |
+|---|---|
+| `src/app/` | One folder per URL (`zenhvac/page.tsx` → `/zenhvac`), plus `sitemap.ts` and `robots.ts` |
+| `src/content/` | Page copy (headlines, FAQs, features). Edit text here, not in the components |
+| `src/components/` | Header, footer and reusable page sections |
+| `src/lib/routes.ts` | Every URL from the old WordPress site; set `built: true` to add a page to the sitemap |
+| `src/lib/links.ts` | All internal links in one place |
+| `public/images/` | Images (served optimized through `next/image`) |
 
-## Learn More
+## Deploying (Vercel)
 
-To learn more about Next.js, take a look at the following resources:
+The Vercel project is connected to this GitHub repo:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Push to `main` → production deployment.
+- Push any other branch / open a PR → preview deployment with its own URL.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+No `vercel.json` or environment variables are required; Vercel detects Next.js automatically.
+Optional variables are documented in [.env.example](.env.example).
 
-## Deploy on Vercel
+### Search engine safety
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Every `*.vercel.app` address sends `X-Robots-Tag: noindex`, so Google never indexes the Vercel copy.
+- Preview deployments are also `noindex` in their HTML and `robots.txt`.
+- Only the production deployment on the real domain (zentrades.pro) is indexable.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Going live on zentrades.pro
+
+1. Finish or 301-redirect every URL in `src/lib/routes.ts` (see the launch checklist in MIGRATION.md).
+2. In Vercel → Project → Settings → Domains, add `zentrades.pro` and `www.zentrades.pro` (redirect `www` to the apex).
+3. Update the DNS records at GoDaddy to the values Vercel shows.
+4. Submit `https://zentrades.pro/sitemap.xml` in Google Search Console.
