@@ -38,9 +38,10 @@ Copy `.env.example` to `.env.local` and set:
 
 ### Redesigned pages
 
-Six pages run as React components converted from the Claude Design export
+Seven pages run as React components converted from the Claude Design export
 ("ZenTrades Homepage Redesign"): `/`, `/zenhvac`, `/zenplumbing`,
-`/zenelectrical`, `/elevator`, `/trades/water-restoration-software`.
+`/zenelectrical`, `/elevator`, `/trades/water-restoration-software`, and `/zenfire`
+(from the second export, "ZenTrades Homepage Redesign 2").
 
 - `components/redesign/*.jsx`: one component per page (layout, content, and the
   page's interactive state). Edit them directly.
@@ -75,7 +76,24 @@ the mobile menu.
   vertical's page (`/zenhvac/features/crew-management`), then the general
   feature page, then Book a Demo.
 - Footer columns come from the redesign; labels resolve through `lib/links.js`.
-  The big footer logo follows the vertical (ZenFire uses its site logo in white).
+  The big footer logo follows the vertical.
+
+### Blog articles
+
+All ~400 blog articles (the `/blog/` sections of every vertical, guides,
+private-equity posts and standalone articles) use the "Blog Article" layout
+from the second redesign export, rendered by `lib/blog.ts` from each post's own
+WordPress content:
+
+- hero (back to the vertical's blog, category, read time, title, intro),
+  sticky "On this page" table of contents with reading progress
+  (`/zt-blog.js`), numbered sections, key-takeaways box, template-download
+  cards, FAQ, "Keep reading" (related posts from the same blog) and a demo CTA;
+- the post's Elementor markup is read into plain blocks (headings, paragraphs,
+  images, lists, tables); old hero text, table-of-contents widgets, sidebar
+  forms and "See all blogs" / newsletter promos are dropped;
+- checklists, forms, templates, case studies and comparisons keep their own
+  layouts (`isArticle` in `lib/blog.ts`).
 
 ### Checklists, forms and post grids
 

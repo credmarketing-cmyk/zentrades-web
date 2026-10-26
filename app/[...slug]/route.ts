@@ -1,5 +1,6 @@
 import { getManifest, loadNotFoundPage, loadPage, renderDocument } from '@/lib/wp';
-import { applySiteChrome } from '@/lib/chrome';
+import { applySiteChrome, chromeFromBody } from '@/lib/chrome';
+import { applyBlogTemplate, isArticle } from '@/lib/blog';
 import { applyShortcodes } from '@/lib/shortcodes';
 import redesigned from '@/components/redesign/pages.json';
 
@@ -25,9 +26,16 @@ export async function GET(_req: Request, { params }: { params: Promise<{ slug: s
   const pathname = '/' + slug.map(decodeURIComponent).join('/');
   const page = loadPage(pathname) ?? loadNotFoundPage();
   // Redesigned navigation and footer for the page's vertical.
-  // Native checklists, forms and post grids in place of plugin shortcodes,
-  // then the redesigned navigation and footer for the page's vertical.
-  const body = applyShortcodes(page.body, page.title);
+  // Blog articles get the redesigned article layout; then native checklists,
+  // forms and post grids replace plugin shortcodes; then the redesigned
+  // navigation and footer for the page's vertical.
+  let body = page.body;
+  const entry = getManifest()[pathname];
+  if (entry && isArticle(pathname, entry.type)) {
+    const demoHref = chromeFromBody(page.body, pathname)?.nav.cta?.href ?? '/book-demo';
+    body = applyBlogTemplate(page, pathname, demoHref);
+  }
+  body = applyShortcodes(body, page.title);
   const withChrome = { ...page, body: applySiteChrome(body, page.path === '/404' ? '/404' : pathname) };
 
   return new Response(renderDocument(withChrome), {

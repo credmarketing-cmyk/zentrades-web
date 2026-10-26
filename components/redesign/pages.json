@@ -38,5 +38,11 @@
   "name": "WaterRestoration",
   "path": "/trades/water-restoration-software",
   "jsonLd": []
+ },
+ {
+  "file": "ZenFire.dc.html",
+  "name": "ZenFire",
+  "path": "/zenfire",
+  "jsonLd": []
  }
 ]

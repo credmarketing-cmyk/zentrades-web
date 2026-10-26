@@ -27,8 +27,7 @@ const FOOTER_LOGO: Record<Vertical, { src: string; alt: string; whiten?: boolean
   hvac: { src: '/redesign/logo-zh-white.png', alt: 'ZenHVAC' },
   plumbing: { src: '/redesign/logo-zp-white.png', alt: 'ZenPlumbing' },
   electrical: { src: '/redesign/logo-zel-white.png', alt: 'ZenElectrical' },
-  // The design has no white ZenFire logo; the site logo is whitened in CSS.
-  fire: { src: '/wp-content/uploads/2024/02/Fire-scaled.png', alt: 'ZenFire', whiten: true },
+  fire: { src: '/redesign/logo-zf-white.png', alt: 'ZenFire' },
 };
 
 export function verticalOf(nav: NavData | null, path: string): Vertical {
