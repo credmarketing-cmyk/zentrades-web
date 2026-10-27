@@ -53,7 +53,7 @@ const FONTS = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;7
 const NAV_CSS = `
 .zt-nav, .zt-nav *:not(svg, svg *) { all: revert; box-sizing: border-box; }
 .zt-nav [hidden] { display: none !important; }
-.zt-nav { --zt-gutter: clamp(24px, 5vw, 64px); --ink:#010101; --soft:#7A736E; --line:#F0EDEA; --hover:#F6F3F1; --accent:#EE5566; --accent-soft:#FDECEE;
+.zt-nav { --zt-gutter: clamp(24px, 6vw, 80px); --ink:#010101; --soft:#7A736E; --line:#F0EDEA; --hover:#F6F3F1; --accent:#EE5566; --accent-soft:#FDECEE;
   position: sticky; top: 0; z-index: 1000; display: block; font-family: 'Inter', system-ui, sans-serif; color: var(--ink);
   -webkit-font-smoothing: antialiased; background: rgba(255,255,255,.88); backdrop-filter: saturate(1.6) blur(16px);
   -webkit-backdrop-filter: saturate(1.6) blur(16px); border-bottom: 1px solid var(--line); }
@@ -62,7 +62,7 @@ const NAV_CSS = `
 /* The WordPress theme colours buttons pink on focus; clicking a menu must not. */
 .zt-nav button:focus, .zt-nav button:active { background: none; color: inherit; outline: none; box-shadow: none; }
 .zt-nav a:focus, .zt-nav a:active { outline: none; }
-.zt-nav .bar { max-width: calc(1400px + 2 * var(--zt-gutter)); margin: 0 auto; padding: 14px var(--zt-gutter); display: flex; align-items: center; gap: 32px; min-height: 76px; }
+.zt-nav .bar { max-width: calc(1250px + 2 * var(--zt-gutter)); margin: 0 auto; padding: 14px var(--zt-gutter); display: flex; align-items: center; gap: 32px; min-height: 76px; }
 .zt-nav .logo { display: flex; align-items: center; flex-shrink: 1; min-width: 0; }
 .zt-nav .logo img { height: 26px; width: auto; max-width: 100%; object-fit: contain; object-position: left center; display: block; }
 .zt-nav .bar > nav { display: block; flex: 1; min-width: 0; }
@@ -220,10 +220,10 @@ export function renderNav(nav: NavData, current: string): string {
 
 const FOOTER_CSS = `
 .zt-ft, .zt-ft *:not(svg, svg *) { all: revert; box-sizing: border-box; }
-.zt-ft { --zt-gutter: clamp(24px, 5vw, 64px); display: block; background: #010101; color: #fff; padding: 96px var(--zt-gutter) 32px; overflow: hidden;
+.zt-ft { --zt-gutter: clamp(24px, 6vw, 80px); display: block; background: #010101; color: #fff; padding: 96px var(--zt-gutter) 32px; overflow: hidden;
   font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
 .zt-ft a { color: inherit; text-decoration: none; }
-.zt-ft .wrap { max-width: 1400px; margin: 0 auto; }
+.zt-ft .wrap { max-width: 1250px; margin: 0 auto; }
 .zt-ft .news { display: flex; flex-wrap: wrap; gap: 24px; padding-bottom: 56px; border-bottom: 1px solid #2A2726; align-items: center; justify-content: space-between; }
 .zt-ft .news-title { flex: 1 1 340px; font-size: clamp(26px,3vw,40px); font-weight: 600; letter-spacing: -.04em; line-height: 1.05; color: #fff; margin: 0; }
 .zt-ft form { flex: 1 1 340px; max-width: 480px; display: flex; background: #1C1A19; border-radius: 16px; padding: 6px; box-shadow: 0 0 0 1px #2E2B29; margin: 0; }

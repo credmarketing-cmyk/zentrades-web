@@ -375,23 +375,23 @@ const CSS = `
 /* Zero-specificity reset (:where) so every rule below wins over it. */
 :where(.zt-blog, .zt-blog *:not(svg, svg *, .zt-cl, .zt-cl *)) { all: revert; box-sizing: border-box; }
 .zt-blog { --ink:#010101; --body:#3A3532; --muted:#5A5450; --soft:#7A736E; --line:#ECE8E4; --accent:#EE5566; --accent-dark:#C93347; --accent-soft:#FDECEE; --cream:#FAF8F6;
-  --zt-gutter: clamp(24px, 5vw, 64px); display: block; background: #fff; color: var(--ink); font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: clip; }
+  --zt-gutter: clamp(24px, 6vw, 80px); display: block; background: #fff; color: var(--ink); font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: clip; }
 .zt-blog a { color: inherit; text-decoration: none; }
 .zt-blog .progress-top { position: fixed; left: 0; top: 0; height: 3px; width: 100%; z-index: 1100; pointer-events: none; }
 .zt-blog .progress-top span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .1s linear; }
 @keyframes zt-rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 /* Hero */
 .zt-blog .hero { padding: 16px var(--zt-gutter) 0; }
-.zt-blog .hero-card { position: relative; overflow: hidden; max-width: 1400px; margin: 0 auto; border-radius: 36px; background: linear-gradient(180deg,#FFF7F8 0%,#FFFFFF 100%); box-shadow: inset 0 0 0 1px #F6E3E6; padding: clamp(32px,4vw,56px) clamp(20px,3vw,40px); }
+.zt-blog .hero-card { position: relative; overflow: hidden; max-width: 1250px; margin: 0 auto; border-radius: 36px; background: linear-gradient(180deg,#FFF7F8 0%,#FFFFFF 100%); box-shadow: inset 0 0 0 1px #F6E3E6; padding: clamp(32px,4vw,56px) clamp(20px,3vw,40px); }
 .zt-blog .hero-card .glow { position: absolute; left: 50%; top: -260px; width: 900px; height: 560px; transform: translateX(-50%); border-radius: 50%; background: radial-gradient(closest-side,rgba(238,85,102,.12),rgba(238,85,102,0)); pointer-events: none; }
 .zt-blog .hero-card .deco { position: absolute; pointer-events: none; }
-.zt-blog .hero-inner { position: relative; max-width: 1400px; margin: 0 auto; padding: clamp(24px,4vw,56px) clamp(0px,2vw,24px); }
+.zt-blog .hero-inner { position: relative; max-width: 1250px; margin: 0 auto; padding: clamp(24px,4vw,56px) clamp(0px,2vw,24px); }
 .zt-blog .meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 32px; }
 .zt-blog .back { display: inline-flex; align-items: center; gap: 8px; height: 36px; padding: 0 14px 0 10px; border-radius: 999px; background: #F6F3F1; font-size: 13px; font-weight: 500; color: var(--muted); transition: background .2s, color .2s; }
 .zt-blog .back:hover { background: var(--ink); color: #fff; }
 .zt-blog .pill { font-size: 12px; font-weight: 600; color: #fff; background: var(--accent); padding: 6px 11px; border-radius: 999px; }
 .zt-blog .read { font-size: 13px; color: var(--soft); }
-.zt-blog h1 { font-size: clamp(36px,5.2vw,76px); font-weight: 600; letter-spacing: -.05em; line-height: 1; margin: 0; max-width: 1200px; text-wrap: balance; animation: zt-rise .7s cubic-bezier(.2,.7,.2,1) both; }
+.zt-blog h1 { font-size: clamp(32px,3.9vw,61px); font-weight: 600; letter-spacing: -.05em; line-height: 1; margin: 0; max-width: 1200px; text-wrap: balance; animation: zt-rise .7s cubic-bezier(.2,.7,.2,1) both; }
 .zt-blog h1 .accent { color: var(--accent); }
 .zt-blog .hero-rule { height: 1px; background: #F0E3E5; margin: clamp(32px,4vw,48px) 0; }
 .zt-blog .hero-row { display: flex; flex-wrap: wrap; gap: 32px 64px; align-items: flex-end; justify-content: space-between; }
@@ -405,7 +405,7 @@ const CSS = `
 .zt-blog .btn:hover { background: var(--accent); transform: translateY(-1px); }
 /* Body: sticky TOC + article */
 .zt-blog .body { padding: 72px var(--zt-gutter) 0; }
-.zt-blog .body-inner { max-width: 1400px; margin: 0 auto; display: flex; gap: 64px; align-items: flex-start; }
+.zt-blog .body-inner { max-width: 1250px; margin: 0 auto; display: flex; gap: 64px; align-items: flex-start; }
 .zt-blog aside { flex: 0 0 300px; position: sticky; top: 96px; display: flex; flex-direction: column; gap: 18px; max-height: calc(100vh - 116px); overflow-y: auto; scrollbar-width: none;
   background: #fff; border-radius: 24px; padding: 20px; box-shadow: 0 0 0 1px var(--line), 0 24px 48px -36px rgba(1,1,1,.25); }
 .zt-blog .toc-head { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 600; color: var(--soft); }
@@ -474,9 +474,9 @@ const CSS = `
 .zt-blog .prose .dl a:hover { background: var(--ink); color: #fff; }
 /* FAQ */
 .zt-blog .faq { padding: 96px var(--zt-gutter) 0; }
-.zt-blog .faq-inner, .zt-blog .more-inner { max-width: 1400px; margin: 0 auto; }
+.zt-blog .faq-inner, .zt-blog .more-inner { max-width: 1250px; margin: 0 auto; }
 .zt-blog .faq-inner { display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start; }
-.zt-blog .faq h2 { flex: 1 1 280px; max-width: 360px; font-size: clamp(32px,3.6vw,46px); font-weight: 600; letter-spacing: -.04em; line-height: 1.05; margin: 0; }
+.zt-blog .faq h2 { flex: 1 1 280px; max-width: 360px; font-size: clamp(29px,2.7vw,37px); font-weight: 600; letter-spacing: -.04em; line-height: 1.05; margin: 0; }
 .zt-blog h2 .accent, .zt-blog .accent { color: var(--accent); }
 .zt-blog .faq-list { flex: 999 1 480px; min-width: 0; border-top: 1px solid var(--line); }
 .zt-blog details { border-bottom: 1px solid var(--line); }
@@ -490,7 +490,7 @@ const CSS = `
 /* Keep reading */
 .zt-blog .more { padding: 96px var(--zt-gutter) 0; }
 .zt-blog .more-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; margin-bottom: 28px; }
-.zt-blog .more-head h2 { font-size: clamp(28px,3.2vw,40px); font-weight: 600; letter-spacing: -.04em; line-height: 1.05; margin: 0; }
+.zt-blog .more-head h2 { font-size: clamp(25px,2.4vw,32px); font-weight: 600; letter-spacing: -.04em; line-height: 1.05; margin: 0; }
 .zt-blog .all { font-size: 15px; font-weight: 500; padding: 6px 0; border-bottom: 1.5px solid var(--ink); transition: color .2s, border-color .2s; }
 .zt-blog .all:hover { color: var(--accent); border-color: var(--accent); }
 .zt-blog .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 16px; }
@@ -501,8 +501,8 @@ const CSS = `
 .zt-blog .card .go { font-size: 14px; font-weight: 500; color: var(--accent-dark); }
 /* CTA */
 .zt-blog .cta { padding: 96px var(--zt-gutter) 128px; }
-.zt-blog .cta-inner { max-width: 1400px; margin: 0 auto; position: relative; overflow: hidden; background: #FDF1F2; border-radius: 36px; padding: clamp(32px,5vw,64px); display: flex; flex-wrap: wrap; gap: 28px; align-items: center; justify-content: space-between; }
-.zt-blog .cta-inner .big { font-size: clamp(28px,3.4vw,44px); font-weight: 600; letter-spacing: -.04em; line-height: 1.1; text-wrap: balance; max-width: 680px; }
+.zt-blog .cta-inner { max-width: 1250px; margin: 0 auto; position: relative; overflow: hidden; background: #FDF1F2; border-radius: 36px; padding: clamp(32px,5vw,64px); display: flex; flex-wrap: wrap; gap: 28px; align-items: center; justify-content: space-between; }
+.zt-blog .cta-inner .big { font-size: clamp(25px,2.55vw,35px); font-weight: 600; letter-spacing: -.04em; line-height: 1.1; text-wrap: balance; max-width: 680px; }
 .zt-blog .cta-inner .small { font-size: 17px; color: var(--muted); margin-top: 14px; }
 @media (max-width: 960px) {
   .zt-blog aside { display: none; }

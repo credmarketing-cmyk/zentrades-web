@@ -10,7 +10,7 @@ import pages from '@/components/redesign/pages.json';
 // styles and the generated :hover/:active rules still win over this.
 const BASE_CSS = `
 body .zt-rd, body .zt-rd *:not(svg, svg *) { all: revert; box-sizing: border-box; }
-body .zt-rd.zt-rd { --zt-gutter: clamp(24px, 5vw, 64px); display: block; background: #FFFFFF; color: #010101; font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+body .zt-rd.zt-rd { --zt-gutter: clamp(24px, 6vw, 80px); display: block; background: #FFFFFF; color: #010101; font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
 body .zt-rd.zt-rd a { color: #010101; text-decoration: none; }
 body .zt-rd.zt-rd a:hover { color: #EE5566; }
 `;
