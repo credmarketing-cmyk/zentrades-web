@@ -375,7 +375,7 @@ const CSS = `
 /* Zero-specificity reset (:where) so every rule below wins over it. */
 :where(.zt-blog, .zt-blog *:not(svg, svg *, .zt-cl, .zt-cl *)) { all: revert; box-sizing: border-box; }
 .zt-blog { --ink:#010101; --body:#3A3532; --muted:#5A5450; --soft:#7A736E; --line:#ECE8E4; --accent:#EE5566; --accent-dark:#C93347; --accent-soft:#FDECEE; --cream:#FAF8F6;
-  --zt-gutter: clamp(16px, 1.6vw, 20px); display: block; background: #fff; color: var(--ink); font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: clip; }
+  --zt-gutter: clamp(24px, 5vw, 64px); display: block; background: #fff; color: var(--ink); font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: clip; }
 .zt-blog a { color: inherit; text-decoration: none; }
 .zt-blog .progress-top { position: fixed; left: 0; top: 0; height: 3px; width: 100%; z-index: 1100; pointer-events: none; }
 .zt-blog .progress-top span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .1s linear; }

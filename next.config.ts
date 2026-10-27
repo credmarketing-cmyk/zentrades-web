@@ -29,6 +29,14 @@ const nextConfig: NextConfig = {
       .map((r) => ({ source: escapePath(r.source), destination: r.destination, statusCode: r.permanent ? 301 : 302 }) as const);
 
     return [
+      // Vercel's own addresses (the project and every build's URL) go to the
+      // real domain, so visits there aren't tracked or indexed separately.
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: '(?<host>.+)\\.vercel\\.app' }],
+        destination: 'https://zentrades.pro/:path*',
+        permanent: true,
+      },
       ...rules,
       // Old AIOSEO sitemap locations.
       { source: '/inx_sitemap.xml', destination: '/sitemap.xml', statusCode: 301 },

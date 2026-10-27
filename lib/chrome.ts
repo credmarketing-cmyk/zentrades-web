@@ -53,7 +53,7 @@ const FONTS = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;7
 const NAV_CSS = `
 .zt-nav, .zt-nav *:not(svg, svg *) { all: revert; box-sizing: border-box; }
 .zt-nav [hidden] { display: none !important; }
-.zt-nav { --zt-gutter: clamp(16px, 1.6vw, 20px); --ink:#010101; --soft:#7A736E; --line:#F0EDEA; --hover:#F6F3F1; --accent:#EE5566; --accent-soft:#FDECEE;
+.zt-nav { --zt-gutter: clamp(24px, 5vw, 64px); --ink:#010101; --soft:#7A736E; --line:#F0EDEA; --hover:#F6F3F1; --accent:#EE5566; --accent-soft:#FDECEE;
   position: sticky; top: 0; z-index: 1000; display: block; font-family: 'Inter', system-ui, sans-serif; color: var(--ink);
   -webkit-font-smoothing: antialiased; background: rgba(255,255,255,.88); backdrop-filter: saturate(1.6) blur(16px);
   -webkit-backdrop-filter: saturate(1.6) blur(16px); border-bottom: 1px solid var(--line); }
@@ -220,7 +220,7 @@ export function renderNav(nav: NavData, current: string): string {
 
 const FOOTER_CSS = `
 .zt-ft, .zt-ft *:not(svg, svg *) { all: revert; box-sizing: border-box; }
-.zt-ft { --zt-gutter: clamp(16px, 1.6vw, 20px); display: block; background: #010101; color: #fff; padding: 96px var(--zt-gutter) 32px; overflow: hidden;
+.zt-ft { --zt-gutter: clamp(24px, 5vw, 64px); display: block; background: #010101; color: #fff; padding: 96px var(--zt-gutter) 32px; overflow: hidden;
   font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
 .zt-ft a { color: inherit; text-decoration: none; }
 .zt-ft .wrap { max-width: 1400px; margin: 0 auto; }
