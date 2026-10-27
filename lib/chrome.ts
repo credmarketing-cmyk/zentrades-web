@@ -144,6 +144,13 @@ const NAV_CSS = `
   .zt-nav .actions { gap: 4px; }
 }
 @media (prefers-reduced-motion: reduce) { .zt-nav *, .zt-nav { animation: none !important; transition: none !important; } }
+/* Migrated Elementor pages: on phones their sections had 0-10px side padding,
+   so text ran to the screen edge. Keep at least 20px; larger values stay. */
+@media (max-width: 767px) {
+  .elementor { overflow-x: clip; }
+  .elementor > .e-con { padding-left: max(20px, var(--padding-left, 0px)) !important; padding-right: max(20px, var(--padding-right, 0px)) !important; }
+  .elementor > .elementor-section { padding-left: 20px !important; padding-right: 20px !important; }
+}
 `;
 
 // Columns per group: wide lists flow into a grid so panels stay short.

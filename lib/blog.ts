@@ -509,6 +509,13 @@ const CSS = `
   .zt-blog .body { padding-top: 48px; }
 }
 @media (max-width: 600px) {
+  .zt-blog .hero-card { padding: 28px 20px; border-radius: 28px; }
+  .zt-blog .hero-inner { padding: 0; }
+  .zt-blog .stats { flex-wrap: nowrap; }
+  .zt-blog .stat { min-width: 0; padding: 12px 14px; }
+  .zt-blog .stat span { white-space: nowrap; }
+  .zt-blog .stat b { font-size: 22px; }
+  .zt-blog .prose > section:first-of-type > p:first-of-type::first-letter, .zt-blog .prose > .lead > p:first-child::first-letter { float: none; font-size: inherit; line-height: inherit; font-weight: inherit; color: inherit; margin: 0; }
   .zt-blog .prose p { font-size: 17px; }
   .zt-blog .faq-a { padding-right: 0; }
   .zt-blog .takeaways { padding: 22px; }

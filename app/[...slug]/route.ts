@@ -29,11 +29,12 @@ export async function GET(_req: Request, { params }: { params: Promise<{ slug: s
   // Blog articles get the redesigned article layout; then native checklists,
   // forms and post grids replace plugin shortcodes; then the redesigned
   // navigation and footer for the page's vertical.
-  let body = page.body;
+  // WordPress comments ("Leave a Reply") are not carried over.
+  let body = page.body.replace(/<section id="comments" class="comments-area">[\s\S]*?<\/section>/g, '');
   const entry = getManifest()[pathname];
   if (entry && isArticle(pathname, entry.type)) {
     const demoHref = chromeFromBody(page.body, pathname)?.nav.cta?.href ?? '/book-demo';
-    body = applyBlogTemplate(page, pathname, demoHref);
+    body = applyBlogTemplate({ ...page, body }, pathname, demoHref);
   }
   body = applyShortcodes(body, page.title);
   const withChrome = { ...page, body: applySiteChrome(body, page.path === '/404' ? '/404' : pathname) };
