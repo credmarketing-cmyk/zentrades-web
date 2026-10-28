@@ -23,11 +23,11 @@ const VERTICAL_HOME: Record<Vertical, string> = {
 
 // Big white logo at the bottom of the footer.
 const FOOTER_LOGO: Record<Vertical, { src: string; alt: string; whiten?: boolean }> = {
-  zentrades: { src: '/redesign/logo-zt-white.png', alt: 'ZenTrades' },
-  hvac: { src: '/redesign/logo-zh-white.png', alt: 'ZenHVAC' },
-  plumbing: { src: '/redesign/logo-zp-white.png', alt: 'ZenPlumbing' },
-  electrical: { src: '/redesign/logo-zel-white.png', alt: 'ZenElectrical' },
-  fire: { src: '/redesign/logo-zf-white.png', alt: 'ZenFire' },
+  zentrades: { src: '/redesign/logo-zt-white.webp', alt: 'ZenTrades' },
+  hvac: { src: '/redesign/logo-zh-white.webp', alt: 'ZenHVAC' },
+  plumbing: { src: '/redesign/logo-zp-white.webp', alt: 'ZenPlumbing' },
+  electrical: { src: '/redesign/logo-zel-white.webp', alt: 'ZenElectrical' },
+  fire: { src: '/redesign/logo-zf-white.webp', alt: 'ZenFire' },
 };
 
 export function verticalOf(nav: NavData | null, path: string): Vertical {

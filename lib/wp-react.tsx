@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 import { withSiteUrl, type HeadTag, type WpPage } from '@/lib/wp';
+import { isWpAsset } from '@/lib/lean';
 
 const ATTR_NAMES: Record<string, string> = {
   class: 'className',
@@ -31,11 +32,13 @@ function HeadElement({ tag, attrs, inner }: HeadTag) {
 
 // A WordPress page's <head> as React elements. React hoists <title>, <meta>
 // and <link> into the document head; styles and scripts render in place.
-export function WpHead({ page }: { page: WpPage }) {
+// `lean` leaves out the WordPress theme and plugin assets (lib/lean.ts).
+export function WpHead({ page, lean = false }: { page: WpPage; lean?: boolean }) {
   return (
     <>
       {page.head
         .filter((t) => !(t.tag === 'meta' && t.attrs.name === 'viewport'))
+        .filter((t) => !lean || !isWpAsset(t))
         .map((t, i) => (
           <HeadElement key={i} {...t} />
         ))}

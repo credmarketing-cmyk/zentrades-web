@@ -77,7 +77,18 @@ function attrsToString(attrs: Record<string, string>): string {
 
 const VOID_TAGS = new Set(['meta', 'link', 'base']);
 
+// Stylesheets that don't need to hold up the first paint: Google Fonts (text
+// shows in a fallback font meanwhile; they use display=swap anyway) and icon
+// fonts (Elementor draws most icons as inline SVG).
+const NON_BLOCKING_CSS =
+  /^https:\/\/fonts\.googleapis\.com\/|\/(font-awesome\/css\/[^/]+|eicons\/css\/elementor-icons\.min|happy-elementor-addons\/assets\/fonts\/(style\.min|huge-icons\/huge-icons\.min))\.css/;
+
 function headTagToString({ tag, attrs, inner }: HeadTag): string {
+  if (tag === 'link' && attrs.rel === 'stylesheet' && NON_BLOCKING_CSS.test(attrs.href ?? '')) {
+    // Loads as print-only (not render-blocking), then switches to all media.
+    const lazy = { ...attrs, media: 'print', onload: "this.media='all'" };
+    return `<link${attrsToString(lazy)}><noscript><link${attrsToString(attrs)}></noscript>`;
+  }
   const open = `<${tag}${attrsToString(attrs)}>`;
   return VOID_TAGS.has(tag) ? open : `${open}${inner}</${tag}>`;
 }

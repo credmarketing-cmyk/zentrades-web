@@ -14,6 +14,9 @@ const wpBackend = process.env.WP_BACKEND_URL?.replace(/\/$/, '');
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  // Unknown URLs render app/global-not-found.tsx, which (unlike not-found.tsx)
+  // isn't embedded in every page.
+  experimental: { globalNotFound: true },
   // Page data is read from disk by the catch-all route and the 404 layout.
   outputFileTracingIncludes: { '/**': ['./data/**/*'] },
 
@@ -42,6 +45,25 @@ const nextConfig: NextConfig = {
       { source: '/inx_sitemap.xml', destination: '/sitemap.xml', statusCode: 301 },
       { source: '/sitemap_index.xml', destination: '/sitemap.xml', statusCode: 301 },
       { source: '/:type(post|page|category|post_tag)-sitemap.xml', destination: '/sitemap.xml', statusCode: 301 },
+    ];
+  },
+
+  // Browser caching for the static files (otherwise sent with max-age=0, so
+  // every visit re-checks each stylesheet, script, font and image). Theme and
+  // plugin files never change; uploads and redesign images rarely do.
+  async headers() {
+    const cache = (source: string, maxAge: number) => ({
+      source,
+      headers: [{ key: 'Cache-Control', value: `public, max-age=${maxAge}, stale-while-revalidate=86400` }],
+    });
+    const YEAR = 31536000;
+    const MONTH = 2592000;
+    return [
+      cache('/wp-includes/:path*', YEAR),
+      cache('/wp-content/plugins/:path*', YEAR),
+      cache('/wp-content/themes/:path*', YEAR),
+      cache('/wp-content/uploads/:path*', MONTH),
+      cache('/redesign/:path*', MONTH),
     ];
   },
 

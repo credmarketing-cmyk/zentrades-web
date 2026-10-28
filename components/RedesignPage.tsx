@@ -35,7 +35,7 @@ export default function RedesignPage({ path, Design }: Props) {
 
   return (
     <>
-      <WpHead page={wp} />
+      <WpHead page={wp} lean />
       {jsonLd.map((ld, i) => (
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: ld.replaceAll('https://zentrades.pro', SITE_URL) }} />
       ))}
@@ -54,7 +54,9 @@ export default function RedesignPage({ path, Design }: Props) {
         <Design links={{ ...chrome.links, ...(chromeData?.links ?? {}) }} />
       </div>
       {chromeData && <div style={{ display: 'contents' }} dangerouslySetInnerHTML={{ __html: renderFooter(chromeData.links, chromeData.vertical) }} />}
-      <div style={{ display: 'contents' }} dangerouslySetInnerHTML={{ __html: chrome.after }} />
+      {/* WordPress's footer scripts and popups (chrome.after) are left out: they
+          drive Elementor widgets these pages don't have. Product tour links
+          were already read from the popups (splitWpBody) for DemoModal. */}
       <DemoModal />
     </>
   );

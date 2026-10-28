@@ -1,15 +1,12 @@
-import { loadNotFoundPage } from '@/lib/wp';
-import { BodyClass, WpHead } from '@/lib/wp-react';
-import { applySiteChrome } from '@/lib/chrome';
-
-// WordPress's 404 template, with its theme styles, header and footer.
+// Next.js sends this boundary along with every React page, so it stays tiny.
+// Unknown URLs get the full WordPress 404 page from app/global-not-found.tsx.
 export default function NotFound() {
-  const page = loadNotFoundPage();
   return (
-    <>
-      <WpHead page={page} />
-      <BodyClass className={page.bodyAttrs.class} />
-      <div style={{ display: 'contents' }} dangerouslySetInnerHTML={{ __html: applySiteChrome(page.body, '/404') }} />
-    </>
+    <main style={{ padding: '120px 24px', textAlign: 'center', fontFamily: 'Inter, system-ui, sans-serif' }}>
+      <h1>Page not found</h1>
+      <p>
+        <a href="/">Back to homepage</a>
+      </p>
+    </main>
   );
 }
