@@ -53,7 +53,7 @@ Seven pages run as React components converted from the Claude Design export
   links to its own demo, contact and feature pages. Homepage customer stories,
   feature list and integration tiles link to their case-study, feature and
   integration pages.
-- Layout: content is 1400px wide with a 16–20px side gutter (`--zt-gutter`, set
+- Layout: content is 1250px wide with a 16–20px side gutter (`--zt-gutter`, set
   in `RedesignPage.tsx` and `lib/chrome.ts`).
 - New images live in `public/redesign/`.
 - Site navigation and footer (every page): see "Site nav and footer" below.
@@ -116,6 +116,22 @@ Make / HubSpot / CRM webhook) and `/api/forms` forwards each submission there as
 JSON (`formId`, `kind`, `page`, `data`, `submittedAt`); checklists then also
 show a Submit button. Without it, short forms show an email fallback and
 checklists offer Print / Save as PDF only.
+
+### Performance
+
+- **No WordPress assets where they aren't used.** The React pages and blog
+  posts in the article layout are entirely our own markup, so they skip the
+  theme and plugin stylesheets, jQuery and Elementor scripts (`lib/lean.ts`).
+  SEO tags, JSON-LD, HubSpot and tracking stay. Other migrated pages
+  (checklists, comparisons, case studies) still use Elementor's CSS.
+- **Images** in `public/redesign/` are WebP, at most 1600px wide. Convert new
+  ones the same way before adding them.
+- **404 page:** `app/global-not-found.tsx` holds the WordPress 404 design.
+  `app/not-found.tsx` is kept tiny on purpose: Next.js embeds it in every React
+  page.
+- Google Fonts and icon-font stylesheets load without blocking the first paint
+  (`lib/wp.ts`), and `/wp-content`, `/wp-includes` and `/redesign` files are
+  sent with long cache headers (`next.config.ts`).
 
 ### Rebuilding a page in React
 
