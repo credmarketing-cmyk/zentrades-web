@@ -7,6 +7,8 @@
 
 export const GOOGLE_TAG_ID = 'GT-TWZG7JP';
 export const GTM_ID = 'GTM-K229SLJ';
+// Site-wide promotional popup (public/zt-offer.js); it hides itself once the offer ends.
+export const OFFER_SCRIPT = '/zt-offer.js';
 export const CHATBOT = { src: 'https://chatbot.hiaimate.com/chatbot-widget.js', widgetKey: 'aw_4wyjY-klVZJkz3vFJWG9NtTWTPBTA806' };
 
 export const GTAG_INLINE = `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GOOGLE_TAG_ID}');`;
@@ -17,7 +19,8 @@ export const TRACKING_HEAD =
   `<script async src="https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TAG_ID}"></script>` +
   `<script>${GTAG_INLINE}</script>` +
   `<script>${GTM_INLINE}</script>` +
-  `<script src="${CHATBOT.src}" data-widget-key="${CHATBOT.widgetKey}" async></script>`;
+  `<script src="${CHATBOT.src}" data-widget-key="${CHATBOT.widgetKey}" async></script>` +
+  `<script src="${OFFER_SCRIPT}" defer></script>`;
 
 /** For right after <body> opens (GTM without JavaScript). */
 export const TRACKING_BODY = `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>`;

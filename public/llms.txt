@@ -4,5 +4,5 @@
 
 ## Sitemaps
 
-- [XML Sitemap](http://localhost:8080/sitemap.xml): Contains all public & indexable URLs for this website.
+- [XML Sitemap](https://zentrades.pro/sitemap.xml): Contains all public & indexable URLs for this website.
 
