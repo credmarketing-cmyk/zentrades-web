@@ -130,5 +130,17 @@
         "destination": "/zenfire/about-us",
         "permanent": true,
         "regex": false
+    },
+    {
+        "source": "/case-study/andgar-home-comfort-success-story",
+        "destination": "/success-story/liberty-plumbing-case-study",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/success-story/andgar-home-comfort",
+        "destination": "/success-story/liberty-plumbing-case-study",
+        "permanent": true,
+        "regex": false
     }
 ]

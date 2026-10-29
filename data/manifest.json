@@ -11842,5 +11842,19 @@
   "modified": null,
   "title": "ZenFire Articles and Guides | ZenTrades",
   "noindex": true
+ },
+ "/case-study/covenant-electric-success-story": {
+  "file": "case-study__covenant-electric-success-story.json",
+  "type": "post",
+  "modified": "2025-11-04T17:29:04+00:00",
+  "title": "Covenant Electric Saves Time and Money with ZenTrades",
+  "noindex": false
+ },
+ "/case-study/j-custom-electric-success-story": {
+  "file": "case-study__j-custom-electric-success-story.json",
+  "type": "post",
+  "modified": "2025-11-04T17:22:21+00:00",
+  "title": "J Custom Electric Saves Time & Boosts Accuracy with ZenTrades",
+  "noindex": false
  }
 }
