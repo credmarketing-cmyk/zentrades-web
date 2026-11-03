@@ -142,5 +142,11 @@
         "destination": "/success-story/liberty-plumbing-case-study",
         "permanent": true,
         "regex": false
+    },
+    {
+        "source": "/zenfire/blog/nfpa-emergency-exit-door-requirements",
+        "destination": "/zenfire/blog/emergency-exit-doors-guidelines",
+        "permanent": true,
+        "regex": false
     }
 ]
