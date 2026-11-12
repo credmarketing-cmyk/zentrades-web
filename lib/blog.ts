@@ -173,8 +173,10 @@ function extractBlocks($: cheerio.CheerioAPI, main: cheerio.Cheerio<Element>) {
         const a = $w.find('a[href]').first();
         const label = clean(a.text());
         // Template downloads are the post's lead magnet; other buttons (Read
-        // more, See all blogs, Request demo) are covered by the layout.
-        if (a.length && /template|download/i.test(label)) blocks.push({ kind: 'cta', label, href: a.attr('href')! });
+        // more, See all blogs, Request demo) are covered by the layout, unless
+        // marked as an in-article call to action (data-zt-cta, set by
+        // refreshed posts).
+        if (a.length && (/template|download/i.test(label) || $w.is('[data-zt-cta]'))) blocks.push({ kind: 'cta', label, href: a.attr('href')! });
         break;
       }
       case 'accordion':
@@ -446,7 +448,7 @@ const CSS = `
 .zt-blog .prose h3 { font-size: 21px; font-weight: 600; letter-spacing: -.02em; line-height: 1.3; margin: 32px 0 12px; scroll-margin-top: 100px; }
 .zt-blog .prose h4 { font-size: 18px; font-weight: 600; margin: 24px 0 10px; }
 .zt-blog .prose p { font-size: 18px; line-height: 1.75; color: var(--body); margin: 0 0 22px; text-wrap: pretty; }
-.zt-blog .prose > section:first-of-type > p:first-of-type::first-letter, .zt-blog .prose > .lead > p:first-child::first-letter { float: left; font-size: 64px; line-height: .9; font-weight: 600; color: var(--accent); margin: 6px 12px 0 0; }
+.zt-blog .prose > section:first-of-type > h2 + p::first-letter, .zt-blog .prose > .lead > p:first-child::first-letter { float: left; font-size: 64px; line-height: .9; font-weight: 600; color: var(--accent); margin: 6px 12px 0 0; }
 .zt-blog .prose a { color: var(--accent-dark); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .zt-blog .prose a:hover { color: var(--accent); }
 .zt-blog .prose strong, .zt-blog .prose b { font-weight: 600; color: var(--ink); }
@@ -515,7 +517,7 @@ const CSS = `
   .zt-blog .stat { min-width: 0; padding: 12px 14px; }
   .zt-blog .stat span { white-space: nowrap; }
   .zt-blog .stat b { font-size: 22px; }
-  .zt-blog .prose > section:first-of-type > p:first-of-type::first-letter, .zt-blog .prose > .lead > p:first-child::first-letter { float: none; font-size: inherit; line-height: inherit; font-weight: inherit; color: inherit; margin: 0; }
+  .zt-blog .prose > section:first-of-type > h2 + p::first-letter, .zt-blog .prose > .lead > p:first-child::first-letter { float: none; font-size: inherit; line-height: inherit; font-weight: inherit; color: inherit; margin: 0; }
   .zt-blog .prose p { font-size: 17px; }
   .zt-blog .faq-a { padding-right: 0; }
   .zt-blog .takeaways { padding: 22px; }
@@ -535,7 +537,7 @@ function renderBlocks(blocks: Block[], sectionId: string | null, subIds: string[
   let sub = 0;
   return blocks
     .map((b) => {
-      if (b.kind === 'cta') return `<div class="dl"><p>${esc(b.label)}</p><a href="${esc(b.href)}">${/template/i.test(b.label) ? 'Get the template' : 'Download'} <span aria-hidden="true">→</span></a></div>`;
+      if (b.kind === 'cta') return `<div class="dl"><p>${esc(b.label)}</p><a href="${esc(b.href)}">${/book-demo/.test(b.href) ? 'Book a demo' : /template/i.test(b.label) ? 'Get the template' : 'Download'} <span aria-hidden="true">→</span></a></div>`;
       if (b.kind === 'html' || b.kind === 'raw') return b.html;
       // Headings inside a section (h2s only appear here when sections are h3-based).
       return b.kind === 'h3' ? `<h3${sectionId ? ` id="${subIds[sub++] ?? ''}"` : ''}>${esc(b.text)}</h3>` : `<h3>${esc(b.text)}</h3>`;
