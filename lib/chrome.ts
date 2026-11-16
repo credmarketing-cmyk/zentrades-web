@@ -51,6 +51,7 @@ const FONTS = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;7
 // ---------------------------------------------------------------- nav
 
 const NAV_CSS = `
+body { margin: 0; }
 .zt-nav, .zt-nav *:not(svg, svg *) { all: revert; box-sizing: border-box; }
 .zt-nav [hidden] { display: none !important; }
 .zt-nav { --zt-gutter: clamp(24px, 6vw, 80px); --ink:#010101; --soft:#7A736E; --line:#F0EDEA; --hover:#F6F3F1; --accent:#EE5566; --accent-soft:#FDECEE;
@@ -195,6 +196,30 @@ function panelContent(item: NavItem, mobile: boolean, current: string) {
   return `<div class="cols"><div class="groups" style="grid-template-columns:${groupCols}">${groups}</div>${all}</div>${promo}`;
 }
 
+// Site-wide offer banner above the navigation. /zt-chrome.js removes it once
+// the offer has ended (data-end); it is left off the offer page itself.
+const PROMO = { href: '/black-friday', end: '2026-11-30T23:59:59-05:00' };
+const PROMO_CSS = `
+.zt-promo, .zt-promo *:not(svg, svg *) { all: revert; box-sizing: border-box; }
+.zt-promo { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; padding: 10px 20px; background: #EE5566; color: #0E0E10;
+  font-family: 'Inter', system-ui, sans-serif; font-size: 14px; font-weight: 600; line-height: 1.35; text-align: center; text-decoration: none; -webkit-font-smoothing: antialiased; }
+.zt-promo:hover { background: #E8475A; }
+.zt-promo, .zt-promo span, .zt-promo:hover, .zt-promo:visited { color: #0E0E10 !important; text-decoration: none; }
+.zt-promo .tag { color: #fff !important; }
+.zt-promo .tag { background: #0E0E10; color: #fff; border-radius: 999px; padding: 3px 10px; font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.zt-promo .go { text-decoration: underline !important; text-underline-offset: 3px; font-weight: 800; white-space: nowrap; }
+@media (max-width: 640px) { .zt-promo { font-size: 13px; gap: 6px 8px; padding: 9px 14px; } .zt-promo .long { display: none; } }
+`;
+
+function renderPromo(current: string): string {
+  if (current === PROMO.href || Date.now() > Date.parse(PROMO.end)) return '';
+  return (
+    `<style>${PROMO_CSS}</style><a class="zt-promo" href="${PROMO.href}" data-zt-promo data-end="${PROMO.end}">` +
+    `<span class="tag">Black Friday</span><span>3 extra months free on any 12-month ZenTrades plan<span class="long"> · Ends Cyber Monday, Nov 30</span></span>` +
+    `<span class="go">Claim the deal →</span></a>`
+  );
+}
+
 export function renderNav(nav: NavData, current: string): string {
   const menu = nav.items
     .map((item, i) =>
@@ -214,7 +239,7 @@ export function renderNav(nav: NavData, current: string): string {
   const login = nav.login ? `<a class="login" ${linkAttrs(nav.login.href)}>Log in</a>` : '';
   const cta = nav.cta ? `<a class="cta" ${linkAttrs(nav.cta.href)}>${esc(nav.cta.label)} <span aria-hidden="true">→</span></a>` : '';
   return (
-    `<link rel="stylesheet" href="${FONTS}"><header class="zt-nav" data-zt-nav><style>${NAV_CSS}</style>` +
+    `<link rel="stylesheet" href="${FONTS}">${renderPromo(current)}<header class="zt-nav" data-zt-nav><style>${NAV_CSS}</style>` +
     `<div class="bar"><a class="logo" ${linkAttrs(nav.logo.href)} aria-label="Home"><img src="${esc(nav.logo.src)}" alt="${esc(nav.logo.alt)}"></a>` +
     `<nav aria-label="Main"><ul class="menu">${menu}</ul></nav>` +
     `<div class="actions">${login}${cta}<button class="burger" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button></div></div>` +
