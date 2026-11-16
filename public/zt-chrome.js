@@ -1,6 +1,11 @@
 // Behaviour for the site navigation rendered by lib/chrome.ts: desktop
 // dropdowns (hover, click, keyboard), and the mobile menu.
 (function () {
+  // Offer banner: gone once the offer has ended.
+  document.querySelectorAll('[data-zt-promo]').forEach(function (el) {
+    if (Date.now() > Date.parse(el.getAttribute('data-end'))) el.remove();
+  });
+
   function init(nav) {
     if (nav.dataset.ready) return;
     nav.dataset.ready = '1';
