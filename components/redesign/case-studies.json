@@ -1,0 +1,283 @@
+{
+ "/zenfire/case-study/pastion-industries-success-story": {
+  "company": "Pastion Industries", "product": "ZenFire", "vertical": "/zenfire", "tag": "Fire & Security",
+  "h1a": "Paper tickets out. ", "h1b": "Four hours", "h1c": " a day back.",
+  "intro": "How Pastion Industries moved scheduling and service tickets off paper, and now gets jobs done faster across the Coachella Valley.",
+  "heroImg": "/redesign/vid-pastion.webp", "heroAlt": "Customer review video with Gabriela Pastion",
+  "video": { "href": "https://www.youtube.com/watch?v=CkB4uchQcVs", "title": "Hear it from Gabriela", "sub": "Director of Operations · Customer review" },
+  "facts": [{ "k": "Customer", "v": "Pastion Industries" }, { "k": "Location", "v": "Indio, California" }, { "k": "Established", "v": "2012" }, { "k": "Team size", "v": "15–25 employees" }, { "k": "Product", "v": "ZenFire" }],
+  "kpis": [{ "n": 50, "suf": "%", "l": "Faster scheduling" }, { "n": 100, "pre": "$", "suf": "K", "l": "Estimated annual cost savings" }, { "n": 4, "suf": " hrs", "l": "Saved every day on paperwork" }, { "n": 96, "suf": "%", "l": "Team adoption" }],
+  "flow": {
+   "kicker": "ONE SERVICE CALL, BEFORE AND AFTER", "title": "Same job. Very different day.",
+   "sub": "Flip between Pastion’s old paper workflow and how the same service call runs in ZenFire today.",
+   "steps": [
+    ["Ticket created", "Written on a paper form in the truck", "Logged by voice or text from the phone"],
+    ["Assignment", "Phone calls to figure out who’s free", "Assigned on the schedule in a few clicks"],
+    ["Progress", "No idea until the tech is back", "Live status as the job moves"],
+    ["Follow-up", "Office calls the customer, sometimes twice", "Internal notes show who already called"],
+    ["Reminders", "Manual calls the day before", "Automated appointment reminders"]
+   ],
+   "before": { "v": "Paper", "l": "slow handoffs, missed appointments and duplicate calls" },
+   "after": { "v": "~4 hrs", "l": "given back to the team every day" }
+  },
+  "person": { "name": "Gabriela Pastion", "role": "Director of Operations", "img": "/redesign/story-pastion.webp" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "Everything ran on paper, and it was slowing the team down", "body": "Before ZenTrades, Pastion Industries relied entirely on paper-based scheduling and service tickets. Managing tickets by hand made it hard to track completion, assign tasks efficiently, and keep communication consistent, which led to delays, missed appointments, and extra follow-up work.", "quote": "The main challenge before ZenTrades was scheduling. Everything was on paper, and it was slow and inefficient. We needed a faster way to track what was done, what was pending, and what needed follow-up." },
+   { "id": "solution", "label": "The solution", "title": "Scheduling and service tickets, digitized end to end", "body": "ZenTrades moved Pastion’s scheduling and ticket workflow onto one platform the office and field share.", "list": [{ "h": "Voice or text tickets", "t": "Techs submit service tickets from the field in seconds." }, { "h": "Live tracking", "t": "Real-time visibility into progress and completion." }, { "h": "Internal notes", "t": "Everyone sees the latest on every customer." }, { "h": "Automated reminders", "t": "Clients get appointment reminders without a phone call." }], "quote": "The scheduling and service ticket features felt like a weight lifted off my shoulders. Now the team can focus on completing work instead of chasing paperwork." },
+   { "id": "results", "label": "The results", "title": "Faster tickets, fewer delays, four hours back every day", "body": "The impact showed up almost immediately, in the office and in the field.", "list": [{ "h": "Faster scheduling", "t": "Paper delays are gone and every task is tracked." }, { "h": "Time saved", "t": "About 4 hours a day once spent on paperwork and coordination." }, { "h": "High adoption", "t": "Staff embraced the platform quickly, improving accountability." }, { "h": "Better organization", "t": "Centralized history makes follow-ups easy." }], "quote": "We saw results immediately. The guys return their service tickets faster, and everything runs more efficiently. It’s been a huge improvement." },
+   { "id": "why", "label": "Why it worked", "title": "Small features that removed the busywork", "body": "Gabriela points to scheduling and service ticket management as the biggest wins, with internal notes and automated reminders further streamlining team communication and coordination.", "quote": "Internal notes are very beneficial. Now, if I’ve already contacted a customer, the team can see it and avoid duplicate calls. That’s been really helpful." }
+  ],
+  "aboutLabel": "About Pastion", "about": "A family-owned fire and security company serving the entire Coachella Valley: fire alarms, security alarms, CCTV, access control and 24/7 UL-certified monitoring for commercial and residential properties.",
+  "gallery": [{ "src": "/redesign/pastion-van-night.webp", "alt": "Pastion Industries van on a night job" }, { "src": "/redesign/pastion-vans-site.webp", "alt": "Two Pastion Industries vans at a residential site" }, { "src": "/redesign/pastion-cctv.webp", "alt": "CCTV camera monitored from a phone" }],
+  "testimonial": { "a": "I would recommend ZenTrades to anybody who asks. You guys are ", "b": "the best.", "name": "Gabriela Pastion", "role": "Director of Operations, Pastion Industries" },
+  "card": { "title": "How Pastion Industries finally escaped the paper nightmare", "img": "/redesign/story-pastion.webp", "stat": "~4 hrs", "statLabel": "saved every day" },
+  "ctaText": "See how ZenFire can help your fire and security operations become faster, more organized, and more efficient."
+ },
+
+ "/zenfire/case-study/valley-fire-safety-success-story": {
+  "company": "Valley Fire Safety", "product": "ZenFire", "vertical": "/zenfire", "tag": "Fire & Security",
+  "h1a": "How Valley Fire Safety cut ", "h1b": "5+ hours", "h1c": " of daily admin.",
+  "intro": "A family-owned fire protection company in Grottoes, Virginia replaced paper invoices, handwritten reports and spreadsheets with ZenFire, and got its evenings back.",
+  "heroImg": "/redesign/zf-case-valley.webp", "heroAlt": "Valley Fire Safety team",
+  "video": { "href": "https://www.youtube.com/watch?v=UzTaVIch_vs", "title": "Hear it from Valley Fire Safety", "sub": "Customer review video" },
+  "facts": [{ "k": "Customer", "v": "Valley Fire Safety" }, { "k": "Location", "v": "Grottoes, Virginia" }, { "k": "Established", "v": "2005" }, { "k": "Team size", "v": "4 employees" }, { "k": "Product", "v": "ZenFire" }],
+  "kpis": [{ "n": 50, "suf": "%", "l": "Jobs and inspections tracked" }, { "n": 100, "pre": "$", "suf": "K", "l": "Estimated annual cost savings" }, { "n": 5, "suf": " hrs", "l": "Daily time saved" }, { "n": 100, "suf": "%", "l": "User adoption" }],
+  "person": { "name": "Mandy", "role": "Operations Lead, Valley Fire Safety" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "Hours of retyping the same customer details", "body": "Before ZenFire, Valley Fire Safety relied on paper invoices, handwritten reports, and spreadsheets to manage daily operations. Repetitive manual entry of customer information across schedules and payment logs consumed hours each day, leaving little time for fieldwork or business growth.", "quote": "Every day we were spending hours entering names, addresses, and phone numbers into schedules, then again into payment logs. It was repetitive and time-consuming.", "who": "Katlyn", "whoRole": "Service Manager, Valley Fire Safety" },
+   { "id": "solution", "label": "The solution", "title": "Scheduling, inspections, invoicing and reporting in one place", "body": "Valley Fire Safety implemented ZenFire to digitize scheduling, inspections, invoicing, and reporting. Technicians submit service reports from the field, attach photos, and everything syncs to the customer’s account. Carbon-copy invoices were replaced by branded digital invoices, and reports go to clients instantly.", "quote": "The drag-and-drop scheduling immediately caught our attention. Being able to schedule jobs visually and access everything from our phones made it clear this was the right solution for us." },
+   { "id": "results", "label": "The results", "title": "Reports and invoices in minutes, not hours", "body": "Paperwork was reduced, staff became more efficient, and clients received professional reports faster. Scheduling errors decreased, and inspection management became seamless.", "quote": "We’ve changed almost everything about how we run our operations. Reports and invoices that used to take hours now take minutes. Everything we need is at our fingertips.", "who": "Katlyn", "whoRole": "Service Manager, Valley Fire Safety" },
+   { "id": "why", "label": "Why it worked", "title": "Less repetition, faster answers, and support that showed up", "body": "Centralizing data, improving communication, and automating repetitive tasks were key to Valley Fire Safety’s success. Scheduling and inspection management became simpler, staff could respond faster, and errors were minimized.", "quote": "The ability to problem-solve and streamline tasks has been amazing. ZenFire’s support team also helped us every step of the way, giving us solutions even before we knew we needed them." }
+  ],
+  "aboutLabel": "About Valley Fire Safety", "about": "Valley Fire Safety is a family-owned business based in Grottoes, Virginia, providing fire protection services across Staunton, Waynesboro, Augusta County and surrounding areas: fire extinguisher inspections, kitchen hood suppression system inspections, maintenance, and compliance services for commercial clients.",
+  "testimonial": { "a": "The platform has freed us from repetitive work and allowed us to grow. Our team can actually focus on strategic decisions and ", "b": "spend time together.", "name": "Mandy", "role": "Operations Lead, Valley Fire Safety" },
+  "card": { "title": "How Valley Fire Safety cut 5+ hours of daily admin with ZenFire", "img": "/redesign/zf-case-valley.webp", "stat": "5+ hrs", "statLabel": "admin cut every day" },
+  "ctaText": "See how ZenFire can help your fire protection business spend less time on paperwork and more time in the field."
+ },
+
+ "/zenfire/case-study/controlled-fire": {
+  "company": "Controlled Fire Services", "product": "ZenFire", "vertical": "/zenfire", "tag": "Fire & Security",
+  "h1a": "From behind the desk ", "h1b": "back into the field", "h1c": ".",
+  "intro": "How Controlled Fire Services in Kimberly, Canada automated inspections, reports, quotes and invoicing with ZenFire, and doubled its clients.",
+  "heroImg": "/wp-content/uploads/2025/05/ChatGPT-Image-May-19-2025-06_46_43-PM-1024x683.png", "heroAlt": "Controlled Fire Services",
+  "video": { "href": "https://www.youtube.com/watch?v=ZaFBcj6Xg8I", "title": "Hear it from Danny and Kesha", "sub": "Owners · Customer review" },
+  "facts": [{ "k": "Customer", "v": "Controlled Fire Services" }, { "k": "Location", "v": "Kimberly, Canada" }, { "k": "Years active", "v": "8+" }, { "k": "Team size", "v": "25–30" }, { "k": "Product", "v": "ZenFire" }],
+  "kpis": [{ "text": "<30 sec", "l": "To generate a report from the field" }, { "text": "1–2 days", "l": "To send invoices, down from 10–14" }, { "text": "<1 hr", "l": "To send a standard quote" }, { "text": "2×", "l": "Clients and monthly revenue" }],
+  "flow": {
+   "kicker": "THE PAYOFF, BEFORE AND AFTER", "title": "Same work. A very different week.",
+   "sub": "Flip between how Controlled Fire ran before ZenFire and how the same work runs today.",
+   "steps": [
+    ["Admin work", "4–6 hours a day on admin for owners and staff", "Standard quotes sent in under 1 hour"],
+    ["Reports", "2–4 hours to compile a report by hand", "Generated in under 30 seconds from the field"],
+    ["Invoices", "Sent 10–14 days after the job was done", "Sent in 1–2 days, so cash comes in sooner"],
+    ["Technicians", "30–60 minutes a day tracking down info and tools", "Job details and tools at hand instantly"],
+    ["Support", "6–12 hour waits, often until the next business day", "Answers in under 5 minutes, 24/7"]
+   ],
+   "before": { "v": "4–6 hrs", "l": "a day stuck on admin work" },
+   "after": { "v": "<30 sec", "l": "to finish a report in the field" }
+  },
+  "person": { "name": "Danny and Kesha Pedersen", "role": "Owners, Controlled Fire Services" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "Growth turned into a pile of paperwork", "body": "As word spread, the small hands-on company started to feel drowned in paperwork and manual processes: reports, quotes and invoices. Danny and Kesha were stuck behind computer screens all day, just barely keeping up.", "list": [{ "h": "Slow paperwork", "t": "Reports and invoices took too long to complete." }, { "h": "Growth as a burden", "t": "More clients meant more paperwork." }, { "h": "Owners at their desks", "t": "Instead of leading the team, they were buried behind computers." }], "quote": "Our process for preparing reports, quoting, and invoicing was just too slow. We were growing fast, but the office work became a bottleneck." },
+   { "id": "solution", "label": "The solution", "title": "A tool that felt like it read their minds", "body": "They looked at other software and watched demos, but couldn’t find what they needed within budget. Then Danny came across a ZenFire customer video describing the same headaches they had, and showed it to Kesha.", "quote": "We checked out other solutions, watched demos, but for us ZenFire just made more sense. It had all the same features as the competitors, but the pricing was spot on. Plus, the overall experience just felt right for us." },
+   { "id": "results", "label": "The results", "title": "Reports from the field, invoices in days", "body": "Switching wasn’t a walk in the park, but once technicians could make reports themselves in the field, the payoff rolled in: less forgotten info, fewer mistakes, and faster turnaround.", "list": [{ "h": "Reports from the field", "t": "Done in seconds by the technician on site." }, { "h": "More time with clients", "t": "Time back for training and winning new clients." }, { "h": "Faster quotes and invoices", "t": "Sent out in days, not weeks." }], "quote": "Onboarding with ZenFire freed up so much time. Now that technicians can make reports themselves in the field, I’m able to spend more time leading the team rather than being stuck in the office." },
+   { "id": "now", "label": "Where they are now", "title": "Double the clients, back in control", "body": "Controlled Fire Services has expanded into a fully automated company with double the clients and monthly revenue. ZenFire gave Danny and Kesha control of their time back.", "quote": "Every week, I’d find something new about the program that made me think, ‘This is way better than what we were doing before!’ It keeps surprising me with how much time it saves." }
+  ],
+  "aboutLabel": "About Controlled Fire Services", "about": "Controlled Fire Services was started by Danny and Kesha Pedersen to make sure local businesses in Kimberly, Canada were safe and compliant. A small, hands-on fire protection company that grew by word of mouth.",
+  "gallery": [{ "src": "/wp-content/uploads/2025/05/ChatGPT-Image-May-19-2025-06_01_57-PM-1024x683.png", "alt": "Controlled Fire Services office" }, { "src": "/wp-content/uploads/2025/05/ChatGPT-Image-May-19-2025-06_06_12-PM-1024x683.png", "alt": "Looking for a fire inspection solution" }, { "src": "/wp-content/uploads/2025/05/ChatGPT-Image-May-19-2025-06_14_26-PM.png", "alt": "Technician completing a report in the field" }],
+  "testimonial": { "a": "Whenever I need a change on a report, it’s done really fast. The support team is quick and reliable. ", "b": "The response time is impressive.", "name": "Danny Pedersen", "role": "Owner, Controlled Fire Services" },
+  "card": { "title": "How Controlled Fire Services automated inspections with ZenFire", "img": "/wp-content/uploads/2025/05/ChatGPT-Image-May-19-2025-06_46_43-PM-1024x683.png", "stat": "2×", "statLabel": "clients and monthly revenue" },
+  "ctaText": "See how ZenFire can get you out of the office and back in the field."
+ },
+
+ "/zenfire/case-study/abc-fire": {
+  "company": "ABC Fire Stoppers", "product": "ZenFire", "vertical": "/zenfire", "tag": "Fire & Security",
+  "h1a": "A fire safety tool that ", "h1b": "fits like a glove", "h1c": ".",
+  "intro": "How ABC Fire Stoppers in Miami, Florida moved off a generic app and 3x5 cards onto ZenFire, with service agreements, reminders and multi-location clients built in.",
+  "heroImg": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-01_50_04-AM-1024x683.png", "heroAlt": "ABC Fire Stoppers",
+  "video": { "href": "https://www.youtube.com/watch?v=bQ_5Z8gqMOQ", "title": "Hear it from Rick", "sub": "ABC Fire Stoppers · Customer review" },
+  "facts": [{ "k": "Customer", "v": "ABC Fire Stoppers" }, { "k": "Location", "v": "Miami, Florida" }, { "k": "Industry", "v": "Fire protection & safety" }, { "k": "Specialty", "v": "Fire extinguisher services" }, { "k": "Product", "v": "ZenFire" }],
+  "kpis": [{ "text": "<1 hr", "l": "To send a standard quote, down from 3–5 days" }, { "text": "Automatic", "l": "Yearly inspection reminders" }, { "text": "1 profile", "l": "For a client’s satellite locations" }, { "text": "Same day", "l": "Support fix during onboarding" }],
+  "person": { "name": "Rick", "role": "ABC Fire Stoppers" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "A generic app for a business that tracks every detail", "body": "Service agreements, customer data and asset tracking were all handled manually, leaving too much room for human error. The software they used was too generic to give a fire safety business the customization it needed, and support was slow.", "list": [{ "h": "Manual data", "t": "Errors and wasted time across the workflow." }, { "h": "Broken communication", "t": "Unfinished jobs and messy documentation." }, { "h": "No customization", "t": "Detailed fire safety tracking was hard." }, { "h": "Slow support", "t": "Delays at the moments that mattered." }], "quote": "Before ZenFire, I was using Square, but it was just a generic app. I couldn't customize anything like I can here. Now, every detail fits the way I actually run my business." },
+   { "id": "solution", "label": "The solution", "title": "Purpose-built for fire safety, customizable to any extent", "body": "From the first demo call it was clear ZenFire wasn’t just another app: customizable forms, integrated customer management and a step-by-step workflow, built for businesses like theirs.", "quote": "ZenFire just has way more features than Square. Square was basic, just line items and client info. This is a whole new level of depth." },
+   { "id": "onboarding", "label": "Getting onboarded", "title": "Service agreements, finally", "body": "Onboarding was smooth. When a Stripe login issue caused a temporary blackout, support resolved it the same day, and the team has been available by email or a quick call from the job site ever since.", "quote": "One of the biggest differences is service agreements. Square didn’t offer them, and I had no reminders. I was tracking everything on 3x5 cards. ZenFire changed that completely." },
+   { "id": "results", "label": "The results", "title": "Organized, efficient and focused on customers", "body": "ABC Fire Stoppers is now more organized and efficient than ever, focused on keeping clients happy and safe instead of fighting clunky, generic tools. Clients with several locations are grouped under one profile, and payment links speed up billing.", "quote": "Since I do yearly inspections, reminders are critical. ZenFire handles that automatically. It’s a massive upgrade from my old manual system." }
+  ],
+  "aboutLabel": "About ABC Fire Stoppers", "about": "ABC Fire Stoppers keeps fire protection equipment in order for communities and organizations in Miami, Florida. Specializing in fire extinguisher services across residential, commercial and industrial projects, they have earned a reputation as the go-to fire extinguisher provider.",
+  "gallery": [{ "src": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-01_52_40-AM.png", "alt": "Managing fire safety paperwork" }, { "src": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-01_55_57-AM-1024x683.png", "alt": "Finding ZenFire" }, { "src": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-01_59_25-AM-1024x683.png", "alt": "Getting onboarded" }],
+  "testimonial": { "a": "The fire extinguisher form is really helpful. The way it's set up with line items makes the process quicker and ", "b": "much more customized to my business.", "name": "Rick", "role": "ABC Fire Stoppers" },
+  "card": { "title": "How ABC Fire Stoppers automated inspections using ZenFire", "img": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-01_50_04-AM-1024x683.png", "stat": "<1 hr", "statLabel": "to send a quote" },
+  "ctaText": "See how ZenFire can fit your fire safety business, from service agreements to reminders and payments."
+ },
+
+ "/zenfire/case-study/lakeview-fire-and-safety": {
+  "company": "Lake View Fire and Safety", "product": "ZenFire", "vertical": "/zenfire", "tag": "Fire & Security",
+  "h1a": "Revenue up ", "h1b": "216%", "h1c": " with ZenFire.",
+  "intro": "How Lakeview Fire & Safety Inc. replaced manual inspections and proposals with ZenFire, onboarded in a month, and grew inspections, proposals and revenue.",
+  "heroImg": "/redesign/hero-fire.webp", "heroAlt": "Fire protection technician",
+  "facts": [{ "k": "Customer", "v": "Lakeview Fire & Safety Inc." }, { "k": "Industry", "v": "Fire protection" }, { "k": "Onboarding", "v": "Sep 29 – Oct 31, 2022" }, { "k": "Product", "v": "ZenFire" }],
+  "kpis": [{ "n": 216, "suf": "%", "l": "Revenue growth" }, { "n": 43.3, "suf": "%", "l": "More inspections than last year" }, { "n": 8.2, "suf": "%", "l": "More proposals shared" }, { "text": "75.71%", "l": "Team adoption in one month" }],
+  "person": { "name": "", "role": "" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "Manual inspections and slow growth", "body": "Lakeview Fire & Safety sought a way to scale their operations and streamline their workflow.", "list": [{ "h": "Operational inefficiencies", "t": "Managing inspections and proposals manually was time-consuming and prone to errors." }, { "h": "Limited scalability", "t": "Hard to grow without compromising service quality." }, { "h": "Revenue stagnation", "t": "Growth was slower than expected due to outdated processes." }, { "h": "No insightful analytics", "t": "Without one platform, data analysis was cumbersome." }] },
+   { "id": "solution", "label": "The solution", "title": "Onboarded in a month", "body": "Lakeview adopted ZenFire to revamp their operational framework. Onboarding ran from September 29 to October 31, 2022, and 75.71% of the team was actively using ZenFire within a month.", "list": [{ "h": "Automated inspection management", "t": "Streamlined scheduling and execution of inspections." }, { "h": "Proposal automation", "t": "Professional, branded proposals created and shared faster." }, { "h": "Revenue analytics", "t": "Insight into revenue streams and growth opportunities." }, { "h": "Team collaboration", "t": "Better communication and efficiency across the team." }] },
+   { "id": "results", "label": "The results", "title": "More inspections, better proposals, 216% revenue growth", "body": "Inspections increased by about 43.3% compared to the year before, with better efficiency and accuracy. Proposals shared rose by about 8.2%, with conversion improving thanks to more professional, clearer proposals, and revenue grew 216%.", "list": [{ "h": "Efficiency gains", "t": "Less admin, more time for high-impact work." }, { "h": "Professionalism", "t": "Better client-facing materials and higher close rates." }, { "h": "Data-driven decisions", "t": "Actionable insight to guide growth." }] },
+   { "id": "why", "label": "Why ZenFire", "title": "Ready to scale with confidence", "body": "With ZenFire, Lakeview Fire and Safety is equipped to scale without increasing headcount, build stronger client relationships through professional, timely proposals, and make data-backed decisions." }
+  ],
+  "aboutLabel": "About Lakeview Fire & Safety", "about": "Lakeview Fire & Safety Inc. is a trusted name in fire protection services. They partnered with ZenFire to manage inspections, proposals and revenue tracking on one platform and keep growing.",
+  "card": { "title": "How Lake View Fire and Safety grew revenue 216% with ZenFire", "img": "/redesign/hero-fire.webp", "stat": "216%", "statLabel": "revenue growth" },
+  "ctaText": "Transform your workflow and unlock revenue efficiency with ZenFire."
+ },
+
+ "/zenhvac/case-study/jbh-heating-air-hvac-software-success-story": {
+  "company": "JBH Heating & Air", "product": "ZenHVAC", "vertical": "/zenhvac", "tag": "HVAC",
+  "h1a": "How JBH Heating & Air grew by ", "h1b": "ditching pen and paper", "h1c": ".",
+  "intro": "Scheduling in Google Calendar, invoices in QuickBooks and service history on paper. How a Dayton HVAC company moved it all into ZenHVAC and added two technicians.",
+  "heroImg": "/redesign/story-jbh.webp", "heroAlt": "JBH Heating & Air",
+  "video": { "href": "https://www.youtube.com/watch?v=skp8LdKvsQo", "title": "Hear it from Ben", "sub": "Owner · Customer review" },
+  "facts": [{ "k": "Customer", "v": "JBH Heating & Air" }, { "k": "Location", "v": "Dayton, Ohio" }, { "k": "Established", "v": "2014" }, { "k": "Team size", "v": "3 employees" }, { "k": "Product", "v": "ZenHVAC" }],
+  "kpis": [{ "n": 60, "suf": "%", "l": "Faster scheduling" }, { "n": 45, "pre": "$", "suf": "K", "l": "Estimated annual cost savings" }, { "n": 4, "suf": " hrs", "l": "Daily time saved" }, { "n": 100, "suf": "%", "l": "User adoption" }],
+  "person": { "name": "Ben Haws", "role": "Owner, JBH Heating & Air" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "Every price and invoice went through Ben", "body": "Scheduling lived in Google Calendar, invoicing in QuickBooks, and service history on paper forms that too often got lost. Technicians called Ben mid-job to ask what a repair cost, and customers got no booking confirmations, “on our way” texts or follow-ups.", "quote": "QuickBooks is a good accounting software. It is not a scheduling, tracking, customer database system." },
+   { "id": "solution", "label": "The solution", "title": "One home for jobs, prices and customer updates", "body": "With ZenHVAC, customers get an email confirmation when an appointment is booked, a text with an arrival time when the technician is en route, and a review request after the job. Technicians price repairs straight from the price book.", "quote": "Before, they’d call me and say, ‘Hey, the part’s bad — what does it cost?’ Now they find the part, pull it up in the price book, show the customer the price, and handle it. That has freed up more of my time and mental capacity than any other feature." },
+   { "id": "results", "label": "The results", "title": "Two more techs, zero paper", "body": "Since going live on ZenHVAC, JBH has seen a meaningful operational transformation.", "list": [{ "h": "Team growth", "t": "Two technicians added, with a third likely soon." }, { "h": "Fully paperless", "t": "Maintenance forms, invoices and estimates are all digital." }, { "h": "Owner out of the loop", "t": "Ben no longer handles routine pricing on active jobs." }, { "h": "More Google reviews", "t": "Automated post-service review requests." }], "quote": "It has taken a lot of me out of the day-to-day operation. That has allowed us to add two more techs to the team, with probably another one coming soon." },
+   { "id": "why", "label": "Why it worked", "title": "The right fit, a smooth start, and support that showed up", "body": "Because JBH already ran on QuickBooks, the switch felt like adding the missing piece. Customer data was migrated in a couple of days, Ben was managing the price book himself shortly after launch, and questions were answered within 24 business hours.", "quote": "The support team is great. Anytime I’ve put a question out, within 24 hours, I have an answer. That side of the platform is equally as great as the software itself." }
+  ],
+  "aboutLabel": "About JBH Heating & Air", "about": "JBH Heating and Air is a local, family-owned HVAC company in Dayton, Ohio, founded in 2014 by Ben Haws. It takes a “Wealth Preservation” approach, using Manual J load calculations to right-size systems instead of commission-driven upselling, for residential and commercial customers.",
+  "gallery": [{ "src": "/wp-content/uploads/elementor/thumbs/img1-rngavvktu7xwtema8kvxhi9xwxrh6ulefjdkao34p4.webp", "alt": "JBH Heating & Air at work" }, { "src": "/wp-content/uploads/2026/05/532226819_1538655987106900_9210036453338456172_n-1024x769.jpg", "alt": "JBH Heating & Air team" }, { "src": "/wp-content/uploads/elementor/thumbs/img1-9-rngaw0a0se4cfgfgh4x2bz38vv4b9c4246mzp1w5u0.webp", "alt": "JBH Heating & Air on a job" }],
+  "testimonial": { "a": "Once you are in, you are really gonna like it. ", "b": "You’re not going to regret trying it out.", "name": "Ben Haws", "role": "Owner, JBH Heating & Air" },
+  "card": { "title": "How JBH Heating & Air grew their HVAC business by ditching pen and paper", "img": "/redesign/story-jbh.webp", "stat": "+2 techs", "statLabel": "added since switching" },
+  "ctaText": "See how ZenHVAC can take you out of the day-to-day and help your HVAC business grow."
+ },
+
+ "/zenhvac/case-study/controlled-fire-success-story": {
+  "company": "Icy Hot Heating & Air Conditioning", "product": "ZenHVAC", "vertical": "/zenhvac", "tag": "HVAC",
+  "h1a": "Off the phone, ", "h1b": "out of the attic", "h1c": ", and growing.",
+  "intro": "How Icy Hot Heating & Air Conditioning in Raleigh moved scheduling, dispatch and customer management into one system, and how its owner finally stepped out of the field.",
+  "heroImg": "/redesign/story-icyhot.webp", "heroAlt": "Icy Hot Heating & Air Conditioning",
+  "video": { "href": "https://www.youtube.com/watch?v=iYzC5BsqSjQ", "title": "Hear it from Frankie", "sub": "Owner · Customer review" },
+  "facts": [{ "k": "Customer", "v": "Icy Hot Heating & Air" }, { "k": "Location", "v": "Raleigh, North Carolina" }, { "k": "Established", "v": "2008" }, { "k": "Team size", "v": "10–20 employees" }, { "k": "Product", "v": "ZenHVAC" }],
+  "kpis": [{ "n": 50, "suf": "%", "l": "Faster scheduling" }, { "n": 100, "pre": "$", "suf": "K", "l": "Estimated annual cost savings" }, { "n": 5, "suf": " hrs", "l": "Daily time saved" }, { "n": 96, "suf": "%", "l": "User adoption" }],
+  "person": { "name": "Frankie", "role": "Owner, Icy Hot Heating & Air Conditioning" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "Every call meant pulling over", "body": "Frankie handled calls, scheduling and installations himself. Every phone call meant stopping a job to take customer details and book the appointment by hand, and in maintenance season coordinating hundreds of appointments by mass email and follow-up calls was exhausting.", "quote": "Every time the phone rang, I’d have to pull over on the side of the road to take the customer’s information and schedule the appointment. I was doing everything – from scheduling to showing up at the job site." },
+   { "id": "solution", "label": "The solution", "title": "Scheduling, dispatch and customers in one system", "body": "ZenTrades centralized scheduling, dispatch and customer management, ending the constant calls and manual data entry. The team migrated Icy Hot’s customer data, set up automated workflows and configured the platform around their scheduling.", "quote": "You guys took over the hard part. You showed us how to load everything into an Excel sheet, and then you took over from there. Next thing you know, the platform was set up for us. No hassle whatsoever." },
+   { "id": "results", "label": "The results", "title": "Growing without adding office staff", "body": "Scheduling and dispatch are no longer a daily headache, customers get faster responses, and email and scheduling automation helped the company grow without adding administrative staff. Frankie is now mostly out of field operations.", "quote": "I’m happy to report that I’m no longer on the field. I go once in a while just to check things out, but we’re exactly where we wanted to be. Mission accomplished." },
+   { "id": "why", "label": "Why it worked", "title": "Easy switch, responsive team", "body": "The switch felt daunting, but the team guided Icy Hot every step of the way and stays a quick message away. Frankie is now looking at ZenTrades’ AI features to step back even further.", "quote": "You guys have been extremely responsive. All I have to do is send a message on WhatsApp, and within a few minutes, you respond." }
+  ],
+  "aboutLabel": "About Icy Hot", "about": "Icy Hot Heating & Air Conditioning Inc. has provided residential and commercial HVAC services in Raleigh, North Carolina since 2008, known for 24/7 emergency service, certified technicians, and heating, cooling and indoor air quality work.",
+  "gallery": [{ "src": "/wp-content/uploads/elementor/thumbs/487854582_1224902206303821_3333917188563199994_n-rd8vq45oewhfjtdvx4fbyb24opc9abvyqfxar9lmko.webp", "alt": "Icy Hot Heating & Air team" }, { "src": "/wp-content/uploads/2025/10/487333089_1224735309653844_6060260577708642306_n.webp", "alt": "Icy Hot Heating & Air Conditioning" }, { "src": "/wp-content/uploads/elementor/thumbs/487814350_1225028002957908_9033236402562804726_n-rd8vpuraik4kbprjg0d29dfiquml5cund5efyhzkaw.webp", "alt": "Icy Hot technician at work" }],
+  "testimonial": { "a": "If I had to rate ZenTrades, it’s a 10 out of 10. ", "b": "Take the leap. You’ll be glad you did.", "name": "Frankie", "role": "Owner, Icy Hot Heating & Air Conditioning" },
+  "card": { "title": "How Icy Hot simplified scheduling and grew faster", "img": "/redesign/story-icyhot.webp", "stat": "Automated", "statLabel": "customer bookings" },
+  "ctaText": "See how ZenHVAC can take scheduling and dispatch off your plate."
+ },
+
+ "/success-story/liberty-plumbing-case-study": {
+  "company": "Andgar Home Comfort", "product": "ZenTrades", "vertical": "/", "tag": "HVAC",
+  "h1a": "Invoicing, dispatch and field work, ", "h1b": "finally in one place", "h1c": ".",
+  "intro": "How Andgar Home Comfort, serving northwest Washington for nearly a century, replaced Excel sheets, manual reporting and PDF invoicing with ZenTrades.",
+  "heroImg": "/redesign/story-andgar.webp", "heroAlt": "Andgar Home Comfort",
+  "video": { "href": "https://www.youtube.com/watch?v=sizzQXgDJsA", "title": "Hear it from Stephanie", "sub": "AR Manager · Customer review" },
+  "facts": [{ "k": "Customer", "v": "Andgar Home Comfort" }, { "k": "Location", "v": "Ferndale, Washington" }, { "k": "Established", "v": "1935" }, { "k": "Team size", "v": "50+ employees" }, { "k": "Product", "v": "ZenTrades" }],
+  "kpis": [{ "text": "~1 hr", "l": "Saved every day on reporting" }, { "text": "Faster", "l": "Call booking and scheduling" }, { "text": "Full", "l": "Service history in the field" }, { "text": "1935", "l": "Serving northwest Washington since" }],
+  "person": { "name": "Stephanie", "role": "AR Manager, Andgar Home Comfort" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "Spreadsheets in the middle of every invoice", "body": "Andgar had started moving off paper, but invoicing still depended on Excel sheets, manual reporting and PDF invoices. Checking each ticket for missing charges, verifying taxes and emailing invoices one by one created bottlenecks.", "quote": "I basically pull all the information out and then I do it in an Excel spreadsheet." },
+   { "id": "solution", "label": "The solution", "title": "One platform for dispatching, invoicing, reporting and the field", "body": "The office can review technician activity, validate data quickly and prepare invoices faster, while technicians work from structured digital checklists and service forms.", "quote": "The checklists in the platform are very helpful because our technicians would just kind of rush through and miss things. Especially with the green, yellow, and red indicators, it’s very nice for our customers to see." },
+   { "id": "results", "label": "The results", "title": "An hour a day back, and no more handwriting", "body": "Reporting and invoice validation take less time, scheduling is faster and more accurate, and technicians can see the full service history in the field.", "quote": "For me to speak on just me, it saves me probably like an hour a day with the reporting that’s there. It does save time." },
+   { "id": "why", "label": "Why it worked", "title": "Clarity, support and trust", "body": "The platform fit Andgar’s existing workflow while solving long-standing inefficiencies, and ZenTrades’ support team kept communication going the whole way through.", "quote": "Amazing. You guys are on top of it. Even if you can’t immediately make something happen, you communicate the whole way through, and that’s awesome." }
+  ],
+  "aboutLabel": "About Andgar", "about": "Andgar Home Comfort has provided heating, cooling, plumbing and electrical services for nearly a century, serving thousands of homes and businesses across Whatcom and Skagit counties in northwest Washington.",
+  "testimonial": { "a": "In ZenTrades, it’s all nice and organized. You know where to look. ", "b": "It’s definitely a lot nicer.", "name": "Stephanie", "role": "AR Manager, Andgar Home Comfort" },
+  "card": { "title": "How Andgar Home Comfort streamlined invoicing, dispatching and field operations", "img": "/redesign/story-andgar.webp", "stat": "~1 hr", "statLabel": "saved every day" },
+  "ctaText": "See how ZenTrades can bring your dispatching, invoicing and reporting into one place."
+ },
+
+ "/case-study/covenant-electric-success-story": {
+  "company": "Covenant Electric", "product": "ZenTrades", "vertical": "/", "tag": "Electrical",
+  "h1a": "No more ", "h1b": "double work", "h1c": " for Covenant Electric.",
+  "intro": "How a Dayton electrical contractor stopped redoing his field paperwork at night with ZenTrades.",
+  "heroImg": "/redesign/story-covenant-building.webp", "heroAlt": "Covenant Electric",
+  "video": { "href": "https://www.youtube.com/watch?v=SMkxbrTATx4", "title": "Hear it from Tony", "sub": "Owner · Customer review" },
+  "facts": [{ "k": "Customer", "v": "Covenant Electric" }, { "k": "Location", "v": "Dayton, Ohio" }, { "k": "Founded", "v": "2007" }, { "k": "Industry", "v": "Electrical contracting" }, { "k": "Product", "v": "ZenTrades" }],
+  "kpis": [{ "text": "4–5 hrs", "l": "Saved every week on double work" }, { "text": "Real time", "l": "Field notes synced to the office" }, { "text": "More", "l": "Ways for customers to pay" }, { "text": "Less", "l": "Late nights catching up on invoices" }],
+  "person": { "name": "Tony", "role": "Owner, Covenant Electric" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "A day in the field, then the same work again at night", "body": "Tony built detailed job packets for every project, then came back to the office to redo the paperwork. When invoicing fell behind, money stayed tied up in finished jobs. He had tried other software, but none fit how he worked.", "quote": "I was basically doing double work. I’d spend the day in the field with paperwork and then come back to the office and do the same work again. It was overwhelming." },
+   { "id": "solution", "label": "The solution", "title": "Field and office connected, with his own job sheets", "body": "In the demo Tony saw ZenTrades connect fieldwork and office operations without re-entering data, and keep the templates and job sheets he already used.", "quote": "I liked the platform, the whole setup, and the mobile app. It integrated field and office work without me having to do double work, and that was the most important thing for me." },
+   { "id": "onboarding", "label": "Onboarding", "title": "Held his hand, every step", "body": "Tony was candid that his own resistance to change made onboarding harder. The team walked him back through it as many times as it took.", "quote": "When I was getting discouraged, you said, okay, let’s back up and go over this again. You probably did that four or five times with me, and that kept me going." },
+   { "id": "results", "label": "The results", "title": "Costs in the system, evenings back", "body": "Scheduling changes take moments, notes sync from the field in real time, estimates look professional, and customers have more ways to pay.", "list": [{ "h": "Scheduling", "t": "Easy to update even when a job moves three or four times." }, { "h": "Field to office", "t": "Notes captured on site sync back automatically." }, { "h": "Invoicing", "t": "Costs already in the system: enter quantities and it’s done." }, { "h": "Work-life balance", "t": "No more staying late every night on invoices." }], "quote": "I have more family time now. I’m not staying late every night to catch up on invoices. I can actually take a breath and plan my days better." }
+  ],
+  "aboutLabel": "About Covenant Electric", "about": "Covenant Electric is a Dayton-based electrical contracting company founded in 2007 by Tony, who started in the electrical field at a mining company before getting his contractor license and building a legitimate, licensed business of his own.",
+  "testimonial": { "a": "It’s not just software. It’s like a partner that ", "b": "walks alongside your business.", "name": "Tony", "role": "Owner, Covenant Electric" },
+  "card": { "title": "How Covenant Electric stopped double data entry and halved invoicing time", "img": "/redesign/story-covenant.webp", "stat": "4–5 hrs", "statLabel": "saved every week" },
+  "ctaText": "See how ZenTrades can connect your field and office so you only do the work once."
+ },
+
+ "/case-study/j-custom-electric-success-story": {
+  "company": "J Custom Electric", "product": "ZenTrades", "vertical": "/", "tag": "Electrical",
+  "h1a": "The right information to ", "h1b": "the right person", "h1c": ", every time.",
+  "intro": "How J Custom Electric replaced paper, spreadsheets and email chains with ZenTrades, and cut invoicing errors to nearly zero across oilfield, commercial and residential jobs.",
+  "heroImg": "/redesign/story-jcustom.webp", "heroAlt": "J Custom Electric",
+  "video": { "href": "https://www.youtube.com/watch?v=pGQkQ4g2Pkw", "title": "Hear it from Gail", "sub": "Office Support · Customer review" },
+  "facts": [{ "k": "Customer", "v": "J Custom Electric" }, { "k": "Industry", "v": "Electrical contracting" }, { "k": "Sectors", "v": "Oilfield, commercial, residential" }, { "k": "Product", "v": "ZenTrades" }],
+  "kpis": [{ "text": "~0", "l": "Invoicing errors" }, { "text": "Minutes", "l": "To reconcile invoices, not hours" }, { "text": "Live", "l": "View of every technician and job" }, { "text": "Synced", "l": "Invoicing with QuickBooks" }],
+  "person": { "name": "Gail", "role": "Office Support, J Custom Electric" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "Paper, spreadsheets and email chains everywhere", "body": "Schedules were hard to maintain, job progress was unclear, and vendor invoices and job numbers were often lost or delayed. Gail spent hours every day verifying data, reconciling invoices and tracking where each technician was.", "quote": "We were getting busy enough that our old systems were becoming very cumbersome and inconvenient. Paper, Excel spreadsheets, and email chains were everywhere. The wrong information was constantly getting to the wrong person." },
+   { "id": "solution", "label": "The solution", "title": "Scheduling, job tracking and invoicing in one place", "body": "ZenTrades shows the office where each technician is working, which jobs are in progress and what materials were bought, and syncs invoicing to QuickBooks. Reconciling invoices and confirming locations now takes minutes.", "quote": "Oh my goodness, I don’t know what we would do without it right now. It makes my job so much easier, from knowing who worked on what job to how long they were there." },
+   { "id": "results", "label": "The results", "title": "Faster scheduling, near-zero invoicing errors", "body": "Scheduling became faster, invoicing errors dropped to nearly zero, and the office gained full visibility into field operations.", "quote": "I do believe that it has allowed us that promptability of tracking what was purchased for what customer. So we can turn around and build that properly." },
+   { "id": "why", "label": "Why it worked", "title": "A single source of truth", "body": "The office and field teams now share one view of schedules, invoices and job progress, replacing manual tracking and redundant paperwork with real-time updates.", "quote": "A great support team. Replies and resolutions to questions are very helpful. We have answers to problems quickly." }
+  ],
+  "aboutLabel": "About J Custom Electric", "about": "J Custom Electric is an electrical contracting company serving the oilfield, commercial and residential sectors, handling complex projects across multiple sites that need tight coordination between the office and field technicians.",
+  "testimonial": { "a": "I would definitely recommend ZenTrades. I don’t know how many stars out of how many, but ", "b": "it’s definitely quite a few!", "name": "Gail", "role": "Office Support, J Custom Electric" },
+  "card": { "title": "How J Custom Electric streamlined scheduling, invoicing and job tracking", "img": "/redesign/story-jcustom.webp", "stat": "~0", "statLabel": "invoicing errors" },
+  "ctaText": "See how ZenTrades can give your office and field one source of truth."
+ },
+
+ "/zenelectrical/case-study/zimmick-electric": {
+  "company": "Zimick Electric", "product": "ZenElectrical", "vertical": "/zenelectrical", "tag": "Electrical",
+  "h1a": "Growing faster ", "h1b": "than the paperwork", "h1c": ".",
+  "intro": "How Zimick Electric in Englewood, New Jersey left manual processes and paper behind, and moved its jobs, client data and invoicing onto ZenElectrical.",
+  "heroImg": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-03_42_00-AM-1024x683.png", "heroAlt": "Zimick Electric",
+  "video": { "href": "https://www.youtube.com/watch?v=4eIm0VegPs4", "title": "Hear it from Lou", "sub": "Owner · Customer review" },
+  "facts": [{ "k": "Customer", "v": "Zimick Electric" }, { "k": "Location", "v": "Englewood, New Jersey" }, { "k": "Industry", "v": "Electrical contracting" }, { "k": "Customers", "v": "Commercial, residential, industrial" }, { "k": "Product", "v": "ZenElectrical" }],
+  "kpis": [{ "text": "Live", "l": "Status of every tech on the dashboard" }, { "text": "<1 hr", "l": "Support issue resolution" }, { "text": "Zero", "l": "Paperwork to chase" }, { "text": "One", "l": "Place for jobs, clients and invoices" }],
+  "person": { "name": "", "role": "" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "Keeping up with an expanding business", "body": "Zimick Electric had no trouble winning clients or delivering quality work. As they took on more projects and hired more technicians, manual processes started to slow them down.", "list": [{ "h": "Manual job and client data", "t": "Time-consuming and prone to errors." }, { "h": "Office–field gap", "t": "Missed updates and scattered information." }, { "h": "Chaotic invoicing", "t": "No structure or set workflow for payments." }, { "h": "Paper records", "t": "Finding a specific record meant searching a haystack." }] },
+   { "id": "solution", "label": "The solution", "title": "Time to modernize", "body": "The team was still using Acubid and doing much of the work by hand. Lou saw that modernizing meant automating the daily busywork to make room for revenue-generating work, and after a demo and a few conversations Zimick moved the business onto ZenElectrical." },
+   { "id": "onboarding", "label": "Getting onboarded", "title": "A new way of working, with support close by", "body": "Moving to ZenElectrical meant setting up workflows and processes in a newer, better way. There were a few bumps, but the support team resolved issues in less than an hour, and the flexibility to edit information became a favourite feature." },
+   { "id": "now", "label": "Where they are now", "title": "Focused on customers again", "body": "Zimick Electric now spends less time juggling messy information and broken workflows, and more time giving customers quality service, with ZenElectrical behind its growth in Englewood, New Jersey." }
+  ],
+  "aboutLabel": "About Zimick Electric", "about": "Lou built Zimick Electric from the ground up, providing electrical contracting services throughout New Jersey with a focus on safety, quality and customer satisfaction for commercial, residential and industrial customers.",
+  "gallery": [{ "src": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-06_48_26-AM-1024x683.png", "alt": "Electrical contracting challenges" }, { "src": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-03_36_28-AM-1024x683.png", "alt": "Finding ZenElectrical" }, { "src": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-03_38_50-AM.png", "alt": "Getting onboarded" }],
+  "card": { "title": "How Zimick Electric optimized its workflow using ZenElectrical", "img": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-03_42_00-AM-1024x683.png", "stat": "<1 hr", "statLabel": "support resolution" },
+  "ctaText": "See how ZenElectrical can help your electrical business grow without the paperwork."
+ },
+
+ "/zenelectrical/case-study/electrical-and-data-services": {
+  "company": "Electrical & Data Service Company", "product": "ZenElectrical", "vertical": "/zenelectrical", "tag": "Electrical",
+  "h1a": "Customer first, ", "h1b": "scheduling sorted", "h1c": ".",
+  "intro": "How Electrical & Data Service Company (EDS) kept its customer-first promise while growing, by moving scheduling, bids and job notes onto ZenElectrical.",
+  "heroImg": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-01_04_30-AM.png", "heroAlt": "Electrical & Data Service Company",
+  "video": { "href": "https://www.youtube.com/watch?v=lwv8ORuJhgk", "title": "Hear it from Sheryl", "sub": "Co-owner · Customer review" },
+  "facts": [{ "k": "Customer", "v": "Electrical & Data Service Co." }, { "k": "Founded", "v": "2014" }, { "k": "Industry", "v": "Electrical" }, { "k": "Product", "v": "ZenElectrical" }],
+  "kpis": [{ "text": "Days", "l": "For the whole team to get on board" }, { "text": "On the fly", "l": "Job details and notes from the field" }, { "text": "Full", "l": "Customer service history on site" }, { "text": "2014", "l": "Putting customers first since" }],
+  "person": { "name": "Sheryl Exler", "role": "Co-owner, EDS" },
+  "chapters": [
+   { "id": "challenge", "label": "The challenge", "title": "Growth was about to hit a wall", "body": "With more projects and clients coming in, it got harder to handle several jobs at once without a streamlined workflow. Scheduling, bids and client communication were juggled all at once, and staying organized became a nightmare.", "list": [{ "h": "Scheduling chaos", "t": "Dispatching electricians and tracking visits got harder over time." }, { "h": "Messy bids", "t": "Managing bids and clients with incomplete forms and job details." }, { "h": "No system", "t": "They needed one digital workflow to save time." }], "quote": "Honestly, we couldn’t figure out how we managed without it for such a long time." },
+   { "id": "solution", "label": "The solution", "title": "Straightforward, efficient and flexible", "body": "EDS explored different tools carefully before choosing. ZenElectrical stood out as a complete solution that could handle their main gap, scheduling, and within a few days the whole team was on board." },
+   { "id": "onboarding", "label": "Getting onboarded", "title": "Like learning to ride a bike", "body": "The ZenElectrical team guided EDS through onboarding, set the business up and migrated its data. Scheduling was the biggest win: technicians know where to be and what to do, and can see each customer’s past service history from the field.", "quote": "Being able to add job details and notes on the fly? That was a real game changer." },
+   { "id": "now", "label": "Where they are now", "title": "Moving forward, spirit intact", "body": "EDS has streamlined its workflow, cut the time spent on redundant tasks, and brought its focus back to delivering great electrical service, while keeping the customer-first spirit that built the business." }
+  ],
+  "aboutLabel": "About EDS", "about": "Master electrician Troy Exler and journeyman wireman Bryan Cady founded Electrical & Data Service Company in 2014 with one mission: always put customers first. In 2020 Bryan passed the torch to his son Kevin, and Sheryl joined as a co-owner.",
+  "gallery": [{ "src": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-12_42_34-AM.png", "alt": "Juggling scheduling and bids" }, { "src": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-12_49_41-AM-1024x683.png", "alt": "Finding ZenElectrical" }, { "src": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-12_56_33-AM-1024x683.png", "alt": "Job details and notes on the fly" }],
+  "testimonial": { "a": "Being able to add job details and notes on the fly? ", "b": "That was a real game changer.", "name": "Sheryl Exler", "role": "Co-owner, EDS" },
+  "card": { "title": "How EDS automated its workflow using ZenElectrical", "img": "/wp-content/uploads/2024/05/ChatGPT-Image-May-27-2025-01_04_30-AM.png", "stat": "Days", "statLabel": "to get the team on board" },
+  "ctaText": "See how ZenElectrical can sort your scheduling and keep your business moving forward."
+ }
+}
