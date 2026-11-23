@@ -50,5 +50,278 @@
   "name": "ZenKitchen",
   "path": "/trades/kitchen-equipment-software",
   "jsonLd": []
+ },
+ {
+  "file": "ZenTrades Features.dc.html",
+  "name": "Features",
+  "path": "/feature/all-feature",
+  "vertical": "/",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenTrades Scheduling.dc.html",
+  "name": "Scheduling",
+  "path": "/feature/scheduling-and-dispatching",
+  "vertical": "/",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can I see all my technicians on one calendar?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. View the whole crew by day, week, or month, or filter down to one tech.\"}},{\"@type\":\"Question\",\"name\":\"What happens when a job gets rescheduled?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Drag it to the new slot. The customer record, notes, and history move with it, and the tech sees the change on their phone.\"}},{\"@type\":\"Question\",\"name\":\"Can I schedule recurring maintenance and inspections?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Set the frequency once, and each future visit is created automatically on that cycle.\"}},{\"@type\":\"Question\",\"name\":\"Can technicians see their schedule in the field?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Techs open the app and see their day with site details and job history already attached.\"}},{\"@type\":\"Question\",\"name\":\"Does the schedule work for both service calls and project work?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Longer project work sits on the same calendar as day-to-day service calls, so you can see where the crew is committed.\"}}]}",
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is field service scheduling software?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It is software that puts every job, technician, and recurring visit on one calendar, replacing the whiteboard and spreadsheet. The office schedules and dispatches from one screen, and technicians see their jobs on a phone.\"}},{\"@type\":\"Question\",\"name\":\"Can I see all my technicians on one calendar?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. View the whole crew by day, week, or month, or filter down to one tech.\"}},{\"@type\":\"Question\",\"name\":\"Can I schedule recurring maintenance and inspections?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Set the frequency once, and each future visit is created automatically on that cycle.\"}},{\"@type\":\"Question\",\"name\":\"What happens when a job gets rescheduled?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Drag it to the new slot. The customer record, notes, and history move with it, and the technician sees the change on their phone.\"}}]}"
+  ]
+ },
+ {
+  "file": "ZenTrades Dispatching.dc.html",
+  "name": "Dispatching",
+  "path": "/feature/dispatching",
+  "vertical": "/",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is field service dispatch software?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It is software that assigns jobs to technicians and tracks them through the day. The office sees who is where and what stage each job is at, and technicians get their next job on a phone instead of a phone call.\"}},{\"@type\":\"Question\",\"name\":\"What is the difference between scheduling and dispatching?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Scheduling is planning the work ahead of time: which jobs happen on which day. Dispatching is running it on the day: who goes where next, and what happens when something changes. ZenTrades does both, and they share the same job records.\"}},{\"@type\":\"Question\",\"name\":\"Can I see where my technicians are?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes, the board shows technician locations so you can send the closest person to an urgent call.\"}},{\"@type\":\"Question\",\"name\":\"How do technicians get the job?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It appears in their app with the site address, the customer's history and any notes, and updates straight away if you move it.\"}},{\"@type\":\"Question\",\"name\":\"Can I fit an emergency call into a full day?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Drop it on the board and move whatever it displaces. The technicians affected see the change on their phones right away.\"}}]}"
+  ],
+  "seo": {
+   "title": "Field Service Dispatch Software for Trades | ZenTrades",
+   "description": "Send the right technician to the right job, track the day as it moves, and keep your crew and customers updated from one dispatch board."
+  }
+ },
+ {
+  "file": "ZenTrades Estimates.dc.html",
+  "name": "Estimates",
+  "path": "/feature/estimate-proposals",
+  "vertical": "/",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is contractor estimate software?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It is software for pricing a job and sending the customer a quote. For field service work, it runs on a phone or tablet, so technicians can build and send the estimate on site.\"}},{\"@type\":\"Question\",\"name\":\"Can technicians create estimates in the field?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. They build it on the mobile app from your pricing and send it to the customer without going back to the office.\"}},{\"@type\":\"Question\",\"name\":\"Can customers sign the estimate electronically?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. The customer approves and signs on the device, and the approved work goes onto the schedule.\"}},{\"@type\":\"Question\",\"name\":\"Does an estimate become an invoice?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Once the work is done, the approved estimate turns into the invoice, so the figures match what the customer agreed to.\"}},{\"@type\":\"Question\",\"name\":\"Can I include service agreement terms in a proposal?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Agreement terms can go on the proposal alongside the priced work.\"}}]}"
+  ],
+  "seo": {
+   "title": "Estimating Software for Contractors | ZenTrades Estimates",
+   "description": "Build an estimate on site, send it for approval, and turn it into an invoice once the customer signs. No paperwork, no second trip."
+  }
+ },
+ {
+  "file": "ZenTrades Invoicing.dc.html",
+  "name": "Invoicing",
+  "path": "/feature/invoicing",
+  "vertical": "/",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can I turn an approved quote into an invoice?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. The quote the customer approved carries over into the invoice, so the amount billed matches the amount agreed without anyone retyping it.\"}},{\"@type\":\"Question\",\"name\":\"Can a technician send the invoice, or does it have to come from the office?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Either. The office can send it and so can the technician, so a finished job does not have to wait for someone at a desk.\"}},{\"@type\":\"Question\",\"name\":\"Where do the prices on the invoice come from?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Your pricebook and your flat rate items. The same work is priced the same way on every invoice, whoever raises it, and tax is applied on the invoice rather than calculated by hand.\"}},{\"@type\":\"Question\",\"name\":\"How does the customer receive the invoice?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"As an email with the invoice attached.\"}},{\"@type\":\"Question\",\"name\":\"Does it work with QuickBooks?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes, with QuickBooks Online and QuickBooks Desktop. The invoice syncs the moment you save it, so nobody rekeys invoices into the accounting system. QuickBooks Desktop uses Intuit's Web Connector.\"}}]}"
+  ],
+  "seo": {
+   "title": "Invoicing Software for Contractors | ZenTrades",
+   "description": "Turn an approved quote into an invoice, send it from the office or the field, and have it in QuickBooks the moment you save."
+  }
+ },
+ {
+  "file": "ZenTrades Online Payments.dc.html",
+  "name": "OnlinePayments",
+  "path": "/feature/online-payments",
+  "vertical": "/",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can my technicians take a card payment at the job?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. The technician can take the card once the work is done, and the payment records against that invoice straight away.\"}},{\"@type\":\"Question\",\"name\":\"Can customers pay online instead?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. An invoice can be paid online rather than at the door, which is how most commercial customers will want to settle.\"}},{\"@type\":\"Question\",\"name\":\"Which payment processor do you use?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Stripe, Gravity Payments and STAX.\"}},{\"@type\":\"Question\",\"name\":\"Do you support bank transfers, or only cards?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Both. Cards and ACH bank transfers are supported, so a homeowner can pay by card and a property manager can send a transfer.\"}},{\"@type\":\"Question\",\"name\":\"Does the payment show up in QuickBooks?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes, as a payment against the invoice it was taken for, so the job shows as paid without anyone matching it up by hand.\"}}]}"
+  ],
+  "seo": {
+   "title": "Online Payments for Contractors | ZenTrades",
+   "description": "Take card payments at the job or let customers pay online. Cards and ACH through Stripe, Gravity Payments or STAX, synced to QuickBooks."
+  }
+ },
+ {
+  "file": "ZenTrades Crew Management.dc.html",
+  "name": "CrewManagement",
+  "path": "/feature/crew-management",
+  "vertical": "/",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is crew management software?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It is software for assigning work to teams rather than single technicians, tracking where those teams are, and keeping the job's details in one place so anyone on the crew can pick it up.\"}},{\"@type\":\"Question\",\"name\":\"Can I assign a job to more than one technician?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Assign the job to a crew and everyone on it sees the same job, site details and notes.\"}},{\"@type\":\"Question\",\"name\":\"Can I see where my crews are during the day?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Real-time technician tracking shows where your people are, so you can send the closest crew to an urgent call.\"}},{\"@type\":\"Question\",\"name\":\"Is there a crew management app for technicians?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Crews work from the mobile app, where they see their jobs, the site history and the forms they need to fill out.\"}},{\"@type\":\"Question\",\"name\":\"How is this different from scheduling?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Scheduling decides when the work happens. Crew management decides who does it and keeps that team working off the same information once the job starts.\"}}]}"
+  ],
+  "seo": {
+   "title": "Crew Management Software for Contractors | ZenTrades",
+   "description": "Assign work to crews, see where every technician is, and keep the field and the office on the same page without a round of phone calls."
+  }
+ },
+ {
+  "file": "ZenTrades Customer Management.dc.html",
+  "name": "CustomerManagement",
+  "path": "/feature/customer-management",
+  "vertical": "/",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is a field service CRM?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It is a customer record built for service work rather than sales. Instead of deals and pipeline stages, it holds the customer, their sites, the equipment there, and every job you have done.\"}},{\"@type\":\"Question\",\"name\":\"How is this different from a sales CRM?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A sales CRM tracks prospects through to a sale. This tracks customers after the sale: where their sites are, what has been serviced, and what is due next.\"}},{\"@type\":\"Question\",\"name\":\"Can one customer have multiple sites?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Each site has its own address, contact, and history, all under one customer for billing.\"}},{\"@type\":\"Question\",\"name\":\"Can technicians see customer history in the field?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. The same record is in the mobile app, so they can read what was done last time before they knock on the door.\"}},{\"@type\":\"Question\",\"name\":\"Can I import my existing customer list?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Customer data can be imported rather than retyped.\"}}]}"
+  ],
+  "seo": {
+   "title": "Field Service CRM for Trade Contractors | ZenTrades",
+   "description": "Every customer, every site, and every job done there in one record, so whoever picks up the phone or pulls into the driveway knows the history."
+  }
+ },
+ {
+  "file": "ZenTrades Job Costing.dc.html",
+  "name": "JobCosting",
+  "path": "/feature/job-costing",
+  "vertical": "/",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Does ZenTrades show the profit on each job?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Each job carries what it cost against what it brought in, so you can see which work paid and which did not without exporting anything to a spreadsheet.\"}},{\"@type\":\"Question\",\"name\":\"Does the cost include overhead, or only labour and parts?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Overhead is included. Labour, materials and overhead are all costed against the job, which matters because a job can look fine on labour and parts alone and still lose money once the truck and the office behind it are counted.\"}},{\"@type\":\"Question\",\"name\":\"Where do the labour figures come from?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"From the hours your technicians book against the job on their phone. The same hours that go to payroll are the ones the job is costed on, so there are not two sets of numbers to reconcile.\"}},{\"@type\":\"Question\",\"name\":\"Can I see profitability by customer or by job type?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"That is reporting rather than job costing, and it lives in Reports and Dashboards. This page is about the numbers on a single job.\"}},{\"@type\":\"Question\",\"name\":\"Does this replace QuickBooks?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. ZenTrades holds the job-level detail your accounting system does not, and invoices, payments and time cards sync across. You keep your books where they are.\"}}]}"
+  ],
+  "seo": {
+   "title": "Job Costing Software for Contractors | ZenTrades",
+   "description": "See the hours booked to every job against what the job was invoiced for, so you know which work is making money and which is not."
+  }
+ },
+ {
+  "file": "ZenTrades Reports.dc.html",
+  "name": "Reports",
+  "path": "/feature/reports",
+  "vertical": "/",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What can I actually see?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Revenue from the work you have run, job status across everything open, and how the work is spread across your technicians.\"}},{\"@type\":\"Question\",\"name\":\"Can I see how much finished work has not been invoiced yet?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Job status covers work that is complete and waiting to be billed, which is usually the pile worth looking at first.\"}},{\"@type\":\"Question\",\"name\":\"Does it show what a single job cost me?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"That is Job Costing, which goes into labour, materials and overhead on one job. This page is the view across all of them.\"}},{\"@type\":\"Question\",\"name\":\"Do I need to export anything to a spreadsheet?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. The reporting is built on the jobs your team is already running in ZenTrades, so the numbers are there without anyone assembling them.\"}},{\"@type\":\"Question\",\"name\":\"Does this replace QuickBooks?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Your books stay in QuickBooks and invoices, payments and time cards sync across. This gives you the operational view QuickBooks does not have, like which jobs are still open and who is carrying the load.\"}}]}"
+  ],
+  "seo": {
+   "title": "Field Service Reporting and Dashboards | ZenTrades",
+   "description": "See revenue, job status and how the work is spread across your technicians, without exporting anything to a spreadsheet first."
+  }
+ },
+ {
+  "file": "ZenTrades Technician App.dc.html",
+  "name": "TechnicianApp",
+  "path": "/feature/technician-app",
+  "vertical": "/",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Does the work order app work without internet?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. The technician can open the job, fill in forms, write notes and take photos with no signal at all. The work is held on the device and uploads when the phone has service again.\"}},{\"@type\":\"Question\",\"name\":\"Is there an app for iPhone and Android?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. ZenTrades is a real app your technicians download and sign into, on both iOS and Android, not a website shrunk onto a phone screen.\"}},{\"@type\":\"Question\",\"name\":\"Can a technician see the equipment at the site?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. The job opens with the assets recorded at that address and what was found on them last time, so the technician arrives knowing the site.\"}},{\"@type\":\"Question\",\"name\":\"Does the technician have to remember to sync?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Once the phone has a connection the app uploads on its own. There is no button to press and nothing left sitting on the device.\"}},{\"@type\":\"Question\",\"name\":\"How are payments handled?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Payment is handled from the office. Customers can pay their invoice online, and the office records card payments against the invoice.\"}}]}"
+  ],
+  "seo": {
+   "title": "Work Order App for Field Technicians | ZenTrades",
+   "description": "A work order app your technicians can use with no signal. See the job, the site history and the assets on the phone, then sync when they are back online."
+  }
+ },
+ {
+  "file": "ZenTrades Time Tracking.dc.html",
+  "name": "TimeTracking",
+  "path": "/feature/time-tracking",
+  "vertical": "/",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How does field service time tracking work in ZenTrades?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The technician clocks in and out on their phone and the hours are recorded against the job. The office reviews the week, makes any corrections and approves it, and the approved time cards go to QuickBooks.\"}},{\"@type\":\"Question\",\"name\":\"Can the office correct a time card?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Time cards are reviewed and approved before payroll, so a wrong clock-out or a missed entry gets fixed in the office rather than argued about on payday.\"}},{\"@type\":\"Question\",\"name\":\"Do the hours go into payroll?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Approved time cards sync to QuickBooks. That is the payroll route today. There is no separate export to other payroll systems.\"}},{\"@type\":\"Question\",\"name\":\"Can we see hours by job rather than just by week?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. That is the point of keeping the hours against the job. It is also what lets labour be costed against the work rather than sitting in one weekly total.\"}}]}"
+  ],
+  "seo": {
+   "title": "Field Service Time Tracking and Time Cards | ZenTrades",
+   "description": "Field service time tracking that keeps hours against the job. Technicians clock in on their phone, the office approves the week, and approved time goes to QuickBooks."
+  }
+ },
+ {
+  "file": "ZenTrades Industries.dc.html",
+  "name": "Industries",
+  "path": "/trades",
+  "vertical": "/",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenTrades Pricing.dc.html",
+  "name": "Pricing",
+  "path": "/pricing",
+  "vertical": "/",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenTrades Contact v2.dc.html",
+  "name": "Contact",
+  "path": "/contact-us",
+  "vertical": "/",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenTrades Demo v3.dc.html",
+  "name": "Demo",
+  "path": "/book-demo",
+  "vertical": "/",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Recurring Inspections.dc.html",
+  "name": "ZfRecurringInspections",
+  "path": "/zenfire/features/recurring-inspection",
+  "vertical": "/zenfire",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can different systems in one building run on different cycles?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. The sprinkler system, the alarm panel, and the extinguishers can each carry their own frequency under the same building record.\"}},{\"@type\":\"Question\",\"name\":\"Does it follow NFPA inspection frequencies?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"You set the frequency per system, including the weekly, monthly, quarterly, semi-annual, annual, and five-year cycles that NFPA work runs on. What a specific building requires is still your authority having jurisdiction's call.\"}},{\"@type\":\"Question\",\"name\":\"What happens if an inspection gets rescheduled?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Move it on the calendar. The next one in the cycle is dated from when the inspection was actually completed, so the schedule does not drift.\"}},{\"@type\":\"Question\",\"name\":\"Can I see what is overdue?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Upcoming and overdue inspections show in one view.\"}},{\"@type\":\"Question\",\"name\":\"Can I import my existing inspection schedule?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Buildings, systems, and their cycles can be imported rather than rebuilt by hand.\"}}]}"
+  ],
+  "seo": {
+   "title": "Fire Inspection Scheduling Software | ZenFire",
+   "description": "Set an inspection frequency once, and ZenFire creates every repeat visit on schedule, with reminders before each one and a clear view of what is overdue."
+  }
+ },
+ {
+  "file": "ZenFire Asset Tracking.dc.html",
+  "name": "ZfAssetTracking",
+  "path": "/zenfire/features/asset-tracking",
+  "vertical": "/zenfire",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is asset inspection software?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It tracks each piece of equipment you service as its own record, with its own inspection schedule and compliance status, rather than tracking only the jobs you do.\"}},{\"@type\":\"Question\",\"name\":\"Can I see every asset a customer owns in one place?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. The asset list sits on the customer record, so a customer with several hundred units across multiple buildings is one list rather than a table inside a form.\"}},{\"@type\":\"Question\",\"name\":\"How do I know which assets are out of compliance?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Each asset is marked compliant or non-compliant against its own due date, so overdue units stand out without being looked for.\"}},{\"@type\":\"Question\",\"name\":\"What happens when units were installed at different times?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Each asset carries its own schedule from its own install or last inspection date. Ten units installed in January and twenty in February stay on their own cycles.\"}},{\"@type\":\"Question\",\"name\":\"Do I have to create recurring tickets?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. The next ticket is created automatically from the last inspection date and the asset's schedule.\"}}]}"
+  ],
+  "seo": {
+   "title": "Asset Inspection Software | ZenFire",
+   "description": "See every asset a customer owns, know which ones are compliant, and let the next inspection ticket create itself from the last inspection date."
+  }
+ },
+ {
+  "file": "ZenFire Deficiency Management.dc.html",
+  "name": "ZfDeficiencyManagement",
+  "path": "/zenfire/features/deficiency-management",
+  "vertical": "/zenfire",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can a technician quote a repair from the inspection?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. The failed item becomes a priced quote directly, and the technician can send it from site.\"}},{\"@type\":\"Question\",\"name\":\"Can the customer approve the quote while we are there?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Once approved, the repair job is created, so it does not depend on anyone booking it afterwards.\"}},{\"@type\":\"Question\",\"name\":\"Can I see all the repairs we have found but not sold?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. There is a view of open deficiencies across every customer, which is usually where the unsold work is sitting.\"}},{\"@type\":\"Question\",\"name\":\"Will the technician know what was outstanding from last time?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Open deficiencies show at the next inspection for that building.\"}},{\"@type\":\"Question\",\"name\":\"Does the quote become an invoice?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Once the repair is done, the approved quote becomes the invoice, so the figures match what the customer agreed to.\"}}]}"
+  ],
+  "seo": {
+   "title": "Turn Inspection Deficiencies Into Quotes | ZenFire",
+   "description": "Every failed item becomes a priced repair quote the customer can approve on site, and an approved quote puts the repair straight onto the schedule."
+  }
+ },
+ {
+  "file": "ZenFire Inspection Forms.dc.html",
+  "name": "ZfInspectionForms",
+  "path": "/zenfire/features/inspection-forms",
+  "vertical": "/zenfire",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Which NFPA forms are included?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"All NFPA forms are included.\"}},{\"@type\":\"Question\",\"name\":\"Can I build my own inspection forms?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Build checklists for work the standard forms do not cover, or for customers who want their own sheet.\"}},{\"@type\":\"Question\",\"name\":\"Can technicians add photos to an inspection?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Photos attach to the specific item rather than being dumped at the end, so the report shows the picture next to the line it belongs to.\"}},{\"@type\":\"Question\",\"name\":\"Do technicians need signal to fill out a form?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No, the ZenFire field app works offline; you need not worry about signal.\"}},{\"@type\":\"Question\",\"name\":\"What happens to the form once it is finished?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It becomes the inspection report, and anything that failed can be turned into a repair quote.\"}}]}"
+  ],
+  "seo": {
+   "title": "Fire Inspection App and Forms | ZenFire",
+   "description": "Built-in NFPA forms, your own checklists, and photos attached to the items that need them. Technicians complete the inspection on a phone, on site."
+  }
+ },
+ {
+  "file": "ZenFire Inspection Reports.dc.html",
+  "name": "ZfInspectionReports",
+  "path": "/zenfire/features/inspection-reports",
+  "vertical": "/zenfire",
+  "jsonLd": [
+   "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How are inspection reports created?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The report is generated from the inspection the technician completed, so there is no separate writing-up step in the office afterward.\"}},{\"@type\":\"Question\",\"name\":\"What format is the report?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A PDF, with your company's details on it.\"}},{\"@type\":\"Question\",\"name\":\"Can the customer sign the report on site?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. The technician completes it on the phone and the customer signs before anyone leaves.\"}},{\"@type\":\"Question\",\"name\":\"Does the report pull in previous inspections?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The building, its systems, and the assets on file are already there, and past inspections for the same site are available while the work is being done.\"}},{\"@type\":\"Question\",\"name\":\"What reports can I get out of a visit?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Three: a service summary showing progress across the visit, the final inspection report for the customer, and an asset-based report. All three are included.\"}}]}"
+  ],
+  "seo": {
+   "title": "Fire Inspection Report Software | ZenFire",
+   "description": "The report builds itself from the completed inspection, pre-filled from the site’s history, so nobody retypes it in the office that evening."
+  }
+ },
+ {
+  "file": "ZenHVAC Our Story v2.dc.html",
+  "name": "ZhOurStory",
+  "path": "/zenhvac/about-us",
+  "vertical": "/zenhvac",
+  "jsonLd": [],
+  "seo": {
+   "title": "About ZenHVAC | HVAC Field Service Software Company",
+   "description": "ZenHVAC is field service software built by ZenTrades for heating and cooling contractors. See how it started and why we built it."
+  }
+ },
+ {
+  "file": "ZenPlumbing Our Story.dc.html",
+  "name": "ZpOurStory",
+  "path": "/zenplumbing/about-us",
+  "vertical": "/zenplumbing",
+  "jsonLd": [],
+  "seo": {
+   "title": "About ZenPlumbing | Plumbing Service Software Company",
+   "description": "ZenPlumbing is field service software built by ZenTrades for plumbing contractors. See how it started and why we built it."
+  }
+ },
+ {
+  "file": "ZenElectrical Our Story.dc.html",
+  "name": "ZeOurStory",
+  "path": "/zenelectrical/about-us",
+  "vertical": "/zenelectrical",
+  "jsonLd": [],
+  "seo": {
+   "title": "About ZenElectrical | Electrical Contractor Software",
+   "description": "ZenElectrical is field service software built by ZenTrades for electrical contractors. See how it started and why we built it."
+  }
  }
 ]
