@@ -323,5 +323,96 @@
    "title": "About ZenElectrical | Electrical Contractor Software",
    "description": "ZenElectrical is field service software built by ZenTrades for electrical contractors. See how it started and why we built it."
   }
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/zenfire/case-study/pastion-industries-success-story",
+  "vertical": "/zenfire",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/zenfire/case-study/valley-fire-safety-success-story",
+  "vertical": "/zenfire",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/zenfire/case-study/controlled-fire",
+  "vertical": "/zenfire",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/zenfire/case-study/abc-fire",
+  "vertical": "/zenfire",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/zenfire/case-study/lakeview-fire-and-safety",
+  "vertical": "/zenfire",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/zenhvac/case-study/jbh-heating-air-hvac-software-success-story",
+  "vertical": "/zenhvac",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/zenhvac/case-study/controlled-fire-success-story",
+  "vertical": "/zenhvac",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/success-story/liberty-plumbing-case-study",
+  "vertical": "/",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/case-study/covenant-electric-success-story",
+  "vertical": "/",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/case-study/j-custom-electric-success-story",
+  "vertical": "/",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/zenelectrical/case-study/zimmick-electric",
+  "vertical": "/zenelectrical",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenFire Case Study - Pastion v2.dc.html",
+  "name": "CaseStudy",
+  "path": "/zenelectrical/case-study/electrical-and-data-services",
+  "vertical": "/zenelectrical",
+  "jsonLd": []
+ },
+ {
+  "file": "ZenTrades Case Studies v2.dc.html",
+  "name": "CaseStudies",
+  "path": "/case-study",
+  "vertical": "/",
+  "jsonLd": []
  }
 ]
