@@ -254,7 +254,7 @@
  "/field-service-management/blog": {
   "file": "field-service-management__blog.json",
   "type": "page",
-  "modified": "2025-06-02T20:42:58+00:00",
+  "modified": "2026-11-24T19:55:58+00:00",
   "title": "Field Service Management Blog | ZenTrades",
   "noindex": false
  },
@@ -1178,14 +1178,14 @@
  "/zenelectrical/blog": {
   "file": "zenelectrical__blog.json",
   "type": "page",
-  "modified": "2025-05-23T17:17:29+00:00",
+  "modified": "2026-11-24T19:55:58+00:00",
   "title": "ZenElectrical Blog: Tips for Electricians",
   "noindex": false
  },
  "/zenhvac/blog": {
   "file": "zenhvac__blog.json",
   "type": "page",
-  "modified": "2025-05-12T19:27:45+00:00",
+  "modified": "2026-11-24T19:55:58+00:00",
   "title": "ZenHVAC Blog: HVAC Business Tips",
   "noindex": false
  },
@@ -1234,14 +1234,14 @@
  "/zenfire/blog": {
   "file": "zenfire__blog.json",
   "type": "page",
-  "modified": "2026-09-08T18:17:32+00:00",
+  "modified": "2026-11-24T19:55:58+00:00",
   "title": "ZenFire Blog: Fire Protection and Inspection Tips",
   "noindex": false
  },
  "/zenplumbing/blogs": {
   "file": "zenplumbing__blogs.json",
   "type": "page",
-  "modified": "2025-05-15T20:29:21+00:00",
+  "modified": "2026-11-24T19:55:58+00:00",
   "title": "ZenPlumbing Blog: Plumbing Business Tips",
   "noindex": false
  },
