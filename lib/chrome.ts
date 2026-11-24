@@ -58,7 +58,7 @@ body { margin: 0; }
 .zt-nav .logo { display: flex; align-items: center; flex-shrink: 1; min-width: 0; }
 .zt-nav .logo img { height: 26px; width: auto; max-width: 100%; object-fit: contain; object-position: left center; display: block; }
 .zt-nav .bar > nav { display: block; flex: 1; min-width: 0; }
-.zt-nav .menu { display: flex; align-items: center; justify-content: center; gap: 4px; list-style: none; margin: 0; padding: 0; }
+.zt-nav .menu { display: flex; align-items: center; justify-content: safe center; gap: 4px; list-style: none; margin: 0; padding: 0; }
 .zt-nav .menu > li { list-style: none; position: relative; }
 .zt-nav .trigger { display: flex; align-items: center; gap: 7px; font-size: 15px; font-weight: 500; color: #2A2523; padding: 10px 14px;
   border-radius: 10px; white-space: nowrap; transition: background .15s, color .15s; }
@@ -122,7 +122,19 @@ body { margin: 0; }
 .zt-nav .sheet-actions { display: flex; flex-direction: column; gap: 10px; margin-top: 24px; }
 .zt-nav .sheet-actions .cta, .zt-nav .sheet-actions .login { justify-content: center; height: 50px; display: flex; align-items: center; font-size: 15px; }
 .zt-nav .sheet-actions .login { box-shadow: inset 0 0 0 1px #E6E1DC; }
-@media (max-width: 1080px) {
+/* Wide vertical logos (ZenPlumbing, ZenElectrical) leave less room for the
+   menu on smaller desktops: tighten the spacing and cap the logo width so the
+   menu never runs under the logo or the buttons. Below 1260px the menu moves
+   into the burger. */
+@media (min-width: 1261px) {
+  .zt-nav .bar { gap: 20px; }
+  .zt-nav .trigger { padding: 10px 10px; gap: 5px; }
+  .zt-nav .login { padding: 11px 10px; }
+}
+@media (max-width: 1360px) {
+  .zt-nav .logo img { max-width: 200px; }
+}
+@media (max-width: 1260px) {
   .zt-nav .bar > nav, .zt-nav .actions .login { display: none; }
   .zt-nav .bar { justify-content: space-between; min-height: 64px; padding: 12px var(--zt-gutter); gap: 16px; }
   .zt-nav .logo img { height: 22px; }
