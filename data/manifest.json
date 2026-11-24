@@ -1693,13 +1693,6 @@
   "title": "How to Get a Nevada Electrical License in 2026",
   "noindex": false
  },
- "/zenfire/blog-fire-exit-door-inspection-compliance-maintenance": {
-  "file": "zenfire__blog-fire-exit-door-inspection-compliance-maintenance.json",
-  "type": "post",
-  "modified": "2026-09-25T15:54:01+00:00",
-  "title": "Fire Exit Door Inspection and Compliance Guide",
-  "noindex": false
- },
  "/zenfire/blog/fire-inspection-report-software": {
   "file": "zenfire__blog__fire-inspection-report-software.json",
   "type": "post",
@@ -8976,8 +8969,8 @@
  "/zenplumbing/blog/crm-for-plumbers": {
   "file": "zenplumbing__blog__crm-for-plumbers.json",
   "type": "post",
-  "modified": "2025-04-29T12:49:29+00:00",
-  "title": "Top 6 CRM for Plumbers | ZenPlumbing",
+  "modified": "2026-11-24T17:02:32+00:00",
+  "title": "Top 6 CRM for Plumbers: Best Plumbing CRM Software Compared",
   "noindex": false
  },
  "/zenhvac/blog/hvac-sales-tips": {
@@ -11918,6 +11911,69 @@
   "type": "post",
   "modified": "2026-10-07T16:14:45+00:00",
   "title": "How Fire Hydrant Systems Work | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/fire-exit-door-inspection": {
+  "file": "zenfire__blog__fire-exit-door-inspection.json",
+  "type": "post",
+  "modified": "2026-09-25T15:54:01+00:00",
+  "title": "Fire Exit Door Inspection and Compliance Guide",
+  "noindex": false
+ },
+ "/zenfire/blog/fire-detection-system": {
+  "file": "zenfire__blog__fire-detection-system.json",
+  "type": "post",
+  "modified": "2026-11-24T17:02:32+00:00",
+  "title": "Fire Detection Systems: Types, Detectors and Benefits",
+  "noindex": false
+ },
+ "/zenelectrical/blog/field-service-software-for-electrical-contractors": {
+  "file": "zenelectrical__blog__field-service-software-for-electrical-contractors.json",
+  "type": "post",
+  "modified": "2026-11-24T17:02:32+00:00",
+  "title": "Field Service Software for Electrical Contractors (2026)",
+  "noindex": false
+ },
+ "/zenhvac/blog/hvac-invoicing-software": {
+  "file": "zenhvac__blog__hvac-invoicing-software.json",
+  "type": "post",
+  "modified": "2026-11-24T17:02:32+00:00",
+  "title": "Best HVAC Invoicing Software For Contractors: Cash Flow & Recurring Billing",
+  "noindex": false
+ },
+ "/zenhvac/blog/hvac-accounting-software": {
+  "file": "zenhvac__blog__hvac-accounting-software.json",
+  "type": "post",
+  "modified": "2026-11-24T17:02:32+00:00",
+  "title": "Best HVAC Accounting Software in 2026: Top Picks",
+  "noindex": false
+ },
+ "/zenplumbing/blog/best-plumbing-software": {
+  "file": "zenplumbing__blog__best-plumbing-software.json",
+  "type": "post",
+  "modified": "2026-11-24T17:02:32+00:00",
+  "title": "Best Plumbing Software in 2026: 11 Tools Compared",
+  "noindex": false
+ },
+ "/zenplumbing/blog/plumbing-invoice-software": {
+  "file": "zenplumbing__blog__plumbing-invoice-software.json",
+  "type": "post",
+  "modified": "2026-11-24T17:02:32+00:00",
+  "title": "Plumbing Invoice Software: Bill Faster and Get Paid Sooner",
+  "noindex": false
+ },
+ "/zenplumbing/blog/plumbing-quote-software": {
+  "file": "zenplumbing__blog__plumbing-quote-software.json",
+  "type": "post",
+  "modified": "2026-11-24T17:02:32+00:00",
+  "title": "Plumbing Quote Software: Faster, More Accurate Estimates",
+  "noindex": false
+ },
+ "/field-service-management/blog/lift-service-software": {
+  "file": "field-service-management__blog__lift-service-software.json",
+  "type": "post",
+  "modified": "2026-11-24T17:02:32+00:00",
+  "title": "Lift Service Software for Modern Elevator Maintenance",
   "noindex": false
  }
 }

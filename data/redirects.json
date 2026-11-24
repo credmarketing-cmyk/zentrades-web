@@ -334,5 +334,17 @@
         "destination": "/zenfire/blog/why-fire-hydrant-system-works",
         "permanent": true,
         "regex": false
+    },
+    {
+        "source": "/zenfire/blog-fire-exit-door-inspection-compliance-maintenance",
+        "destination": "/zenfire/blog/fire-exit-door-inspection",
+        "permanent": true,
+        "regex": false
+    },
+    {
+        "source": "/zenfire/blog-fire-exit-door-inspection",
+        "destination": "/zenfire/blog/fire-exit-door-inspection",
+        "permanent": true,
+        "regex": false
     }
 ]
