@@ -1567,60 +1567,11 @@
   "title": "AFSA Conference 2026: AFSA45 in San Antonio | ZenFire",
   "noindex": false
  },
- "/zenfire/fire-inspection-management-how-to-run-a-program-that-does-not-fall-apart": {
-  "file": "zenfire__fire-inspection-management-how-to-run-a-program-that-does-not-fall-apart.json",
-  "type": "post",
-  "modified": "2026-09-25T15:53:52+00:00",
-  "title": "Fire Inspection Management: Run a Better Program",
-  "noindex": false
- },
  "/zenfire/blog/understanding-dry-sprinkler-systems-a-practical-guide-for-building-owners": {
   "file": "zenfire__blog__understanding-dry-sprinkler-systems-a-practical-guide-for-building-owners.json",
   "type": "post",
   "modified": "2026-09-28T14:02:55+00:00",
   "title": "Dry Sprinkler Systems: Guide for Building Owners",
-  "noindex": false
- },
- "/zenfire/new-york-smoke-alarm-law-smoke-detectors-carbon-monoxide-rules-and-owner-duties": {
-  "file": "zenfire__new-york-smoke-alarm-law-smoke-detectors-carbon-monoxide-rules-and-owner-duties.json",
-  "type": "post",
-  "modified": "2026-09-25T15:53:57+00:00",
-  "title": "New York Smoke Alarm Law: Owner Duties | ZenFire",
-  "noindex": false
- },
- "/zenfire/fire-safety-techniques-and-tools-that-actually-work": {
-  "file": "zenfire__fire-safety-techniques-and-tools-that-actually-work.json",
-  "type": "post",
-  "modified": "2026-09-25T15:53:42+00:00",
-  "title": "Fire Safety Techniques and Tools That Work | ZenFire",
-  "noindex": false
- },
- "/zenfire/fire-marshal-duties-and-responsibilities-the-job-nobody-notices-until-something-burns": {
-  "file": "zenfire__fire-marshal-duties-and-responsibilities-the-job-nobody-notices-until-something-burns.json",
-  "type": "post",
-  "modified": "2026-09-25T15:53:48+00:00",
-  "title": "Fire Marshal Duties and Responsibilities | ZenFire",
-  "noindex": false
- },
- "/field-service-management/elevator-maintenance-management-software": {
-  "file": "field-service-management__elevator-maintenance-management-software.json",
-  "type": "post",
-  "modified": "2026-09-25T15:54:09+00:00",
-  "title": "Elevator Maintenance Management Software Guide",
-  "noindex": false
- },
- "/field-service-management/field-service-management-software-the-complete-guide": {
-  "file": "field-service-management__field-service-management-software-the-complete-guide.json",
-  "type": "post",
-  "modified": "2026-09-25T15:54:05+00:00",
-  "title": "Field Service Management Software: Complete Guide",
-  "noindex": false
- },
- "/field-service-management/elevator-field-service-automation": {
-  "file": "field-service-management__elevator-field-service-automation.json",
-  "type": "post",
-  "modified": "2026-09-25T15:54:14+00:00",
-  "title": "Elevator Field Service Automation | ZenTrades",
   "noindex": false
  },
  "/field-service-management/ada-elevator-requirements-what-every-building-owner-needs-to-know": {
@@ -2027,13 +1978,6 @@
   "type": "post",
   "modified": "2026-03-16T14:48:28+00:00",
   "title": "Mobile Fire Inspection Software: 2026 Buyer Guide",
-  "noindex": false
- },
- "/zenfire/blog/top-10-fire-inspection-software": {
-  "file": "zenfire__blog__top-10-fire-inspection-software.json",
-  "type": "post",
-  "modified": "2026-06-01T18:21:13+00:00",
-  "title": "Top 10 Fire Inspection Software in 2026 | ZenFire",
   "noindex": false
  },
  "/zenfire/blog/real-time-benefits-of-fire-protection-software": {
@@ -9442,102 +9386,11 @@
   "title": "Book a Free Demo | ZenTrades Field Service Software",
   "noindex": false
  },
- "/zenfire/paperless-safety-inspection-system": {
-  "file": "zenfire__paperless-safety-inspection-system.json",
-  "type": "post",
-  "modified": "2026-10-20T16:46:59+00:00",
-  "title": "Paperless Safety Inspection System Playbook | ZenFire",
-  "noindex": false
- },
- "/zenfire/alarm-company-software": {
-  "file": "zenfire__alarm-company-software.json",
-  "type": "post",
-  "modified": "2026-10-20T16:43:07+00:00",
-  "title": "Alarm Company Software for Fire and Security | ZenFire",
-  "noindex": false
- },
- "/zenfire/inspection-management-system-how-fire-and-life-safety-contractors-run-inspections": {
-  "file": "zenfire__inspection-management-system-how-fire-and-life-safety-contractors-run-inspections.json",
-  "type": "post",
-  "modified": "2026-10-20T16:57:41+00:00",
-  "title": "Inspection Management System for Fire Contractors",
-  "noindex": false
- },
- "/zenfire/what-happens-if-a-business-fails-a-fire-inspection": {
-  "file": "zenfire__what-happens-if-a-business-fails-a-fire-inspection.json",
-  "type": "post",
-  "modified": "2026-10-20T17:13:38+00:00",
-  "title": "What Happens If a Business Fails a Fire Inspection?",
-  "noindex": false
- },
- "/zenfire/fire-extinguisher-inspection-software-a-contractors-guide": {
-  "file": "zenfire__fire-extinguisher-inspection-software-a-contractors-guide.json",
-  "type": "post",
-  "modified": "2026-10-20T16:35:21+00:00",
-  "title": "Fire Extinguisher Inspection Software Guide | ZenFire",
-  "noindex": false
- },
- "/zenfire/blog-alarm-company-service-software": {
-  "file": "zenfire__blog-alarm-company-service-software.json",
-  "type": "post",
-  "modified": "2026-10-20T16:39:03+00:00",
-  "title": "Alarm Company Service Software for Fire and Security",
-  "noindex": false
- },
  "/home": {
   "file": "home.json",
   "type": "page",
   "modified": "2025-12-05T14:39:58+00:00",
   "title": "AI Field Service Management Software | ZenTrades",
-  "noindex": false
- },
- "/zenfire/blog-safety-inspection-software": {
-  "file": "zenfire__blog-safety-inspection-software.json",
-  "type": "post",
-  "modified": "2026-10-20T16:30:00+00:00",
-  "title": "Safety Inspection Software for Fire and Life Safety",
-  "noindex": false
- },
- "/zenfire/fire-extinguisher-code-the-complete-guide-to-nfpa-10-and-osha-rules": {
-  "file": "zenfire__fire-extinguisher-code-the-complete-guide-to-nfpa-10-and-osha-rules.json",
-  "type": "post",
-  "modified": "2026-10-07T16:31:06+00:00",
-  "title": "Fire Extinguisher Code: NFPA 10 and OSHA Rules",
-  "noindex": false
- },
- "/zenfire/the-proper-use-of-fire-extinguisher-the-90-seconds-that-save-lives": {
-  "file": "zenfire__the-proper-use-of-fire-extinguisher-the-90-seconds-that-save-lives.json",
-  "type": "post",
-  "modified": "2026-10-07T16:23:15+00:00",
-  "title": "Proper Use of a Fire Extinguisher | ZenFire",
-  "noindex": false
- },
- "/zenfire/fire-door-inspection-software-a-smarter-way-to-stay-compliant": {
-  "file": "zenfire__fire-door-inspection-software-a-smarter-way-to-stay-compliant.json",
-  "type": "post",
-  "modified": "2026-10-07T16:24:44+00:00",
-  "title": "Fire Door Inspection Software | ZenFire",
-  "noindex": false
- },
- "/zenfire/life-safety-equipment-what-every-building-needs-to-stay-safe": {
-  "file": "zenfire__life-safety-equipment-what-every-building-needs-to-stay-safe.json",
-  "type": "post",
-  "modified": "2026-10-07T16:26:53+00:00",
-  "title": "Life Safety Equipment Every Building Needs | ZenFire",
-  "noindex": false
- },
- "/zenfire/egress-door-what-they-are-and-the-rules-that-keep-them-safe": {
-  "file": "zenfire__egress-door-what-they-are-and-the-rules-that-keep-them-safe.json",
-  "type": "post",
-  "modified": "2026-10-07T16:28:06+00:00",
-  "title": "Egress Doors: Rules That Keep Them Safe | ZenFire",
-  "noindex": false
- },
- "/zenfire/nfpa-10-fire-extinguisher-inspection-requirements-the-complete-compliance-guide": {
-  "file": "zenfire__nfpa-10-fire-extinguisher-inspection-requirements-the-complete-compliance-guide.json",
-  "type": "post",
-  "modified": "2026-10-07T16:21:55+00:00",
-  "title": "NFPA 10 Extinguisher Inspection Requirements",
   "noindex": false
  },
  "/category/zenfire/checklist": {
@@ -9547,33 +9400,12 @@
   "title": "Fire Inspection Checklists | ZenFire Blog",
   "noindex": true
  },
- "/zenfire/fire-extinguisher-mounting-height-a-complete-guide-to-proper-placement": {
-  "file": "zenfire__fire-extinguisher-mounting-height-a-complete-guide-to-proper-placement.json",
-  "type": "post",
-  "modified": "2026-10-07T16:20:34+00:00",
-  "title": "Fire Extinguisher Mounting Height Guide | ZenFire",
-  "noindex": false
- },
- "/zenfire/fire-alarm-inspector-career-path-pay-and-what-the-job-really-looks-like": {
-  "file": "zenfire__fire-alarm-inspector-career-path-pay-and-what-the-job-really-looks-like.json",
-  "type": "post",
-  "modified": "2026-10-07T16:19:24+00:00",
-  "title": "Fire Alarm Inspector: Career Path and Pay | ZenFire",
-  "noindex": false
- },
  "/category/electrical": {
   "file": "category__electrical.json",
   "type": "category",
   "modified": null,
   "title": "Electrical Contractor Articles and Guides | ZenTrades Blog",
   "noindex": true
- },
- "/zenfire/fire-pump-churn-test-a-complete-guide-to-nfpa-compliant-testing": {
-  "file": "zenfire__fire-pump-churn-test-a-complete-guide-to-nfpa-compliant-testing.json",
-  "type": "post",
-  "modified": "2026-10-07T16:17:55+00:00",
-  "title": "Fire Pump Churn Test: NFPA 25 Guide | ZenFire",
-  "noindex": false
  },
  "/category/field-service-management": {
   "file": "category__field-service-management.json",
@@ -9582,33 +9414,12 @@
   "title": "Field Service Management Articles | ZenTrades Blog",
   "noindex": true
  },
- "/zenfire/why-fire-hydrant-system-works-the-engineering-behind-every-emergency-response": {
-  "file": "zenfire__why-fire-hydrant-system-works-the-engineering-behind-every-emergency-response.json",
-  "type": "post",
-  "modified": "2026-10-07T16:14:45+00:00",
-  "title": "How Fire Hydrant Systems Work | ZenFire",
-  "noindex": false
- },
  "/category/fire": {
   "file": "category__fire.json",
   "type": "category",
   "modified": null,
   "title": "Fire Protection Articles and Inspection Guides | ZenTrades",
   "noindex": true
- },
- "/zenfire/nfpa-25-inspection-requirements-what-every-building-owner-must-know-in-2026": {
-  "file": "zenfire__nfpa-25-inspection-requirements-what-every-building-owner-must-know-in-2026.json",
-  "type": "post",
-  "modified": "2026-10-07T16:13:38+00:00",
-  "title": "NFPA 25 Inspection Requirements in 2026 | ZenFire",
-  "noindex": false
- },
- "/zenfire/the-fire-alarm-control-panel-explained-a-guide-for-building-owners": {
-  "file": "zenfire__the-fire-alarm-control-panel-explained-a-guide-for-building-owners.json",
-  "type": "post",
-  "modified": "2026-09-14T18:57:37+00:00",
-  "title": "Fire Alarm Control Panel Explained | ZenFire",
-  "noindex": false
  },
  "/category/forms": {
   "file": "category__forms.json",
@@ -11918,6 +11729,195 @@
   "type": "post",
   "modified": "2026-11-24T16:23:01+00:00",
   "title": "Elevator Scheduling Software for Service Companies",
+  "noindex": false
+ },
+ "/zenfire/blog/fire-extinguisher-code-the-complete-guide": {
+  "file": "zenfire__blog__fire-extinguisher-code-the-complete-guide.json",
+  "type": "post",
+  "modified": "2026-10-07T16:31:06+00:00",
+  "title": "Fire Extinguisher Code: NFPA 10 and OSHA Rules",
+  "noindex": false
+ },
+ "/zenfire/blog/life-safety-equipment-what-every-building-needs": {
+  "file": "zenfire__blog__life-safety-equipment-what-every-building-needs.json",
+  "type": "post",
+  "modified": "2026-10-07T16:26:53+00:00",
+  "title": "Life Safety Equipment Every Building Needs | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/alarm-company-service-software": {
+  "file": "zenfire__blog__alarm-company-service-software.json",
+  "type": "post",
+  "modified": "2026-10-20T16:39:03+00:00",
+  "title": "Alarm Company Service Software for Fire and Security",
+  "noindex": false
+ },
+ "/zenfire/blog/fire-extinguisher-mounting-height-a-complete-guide-to-proper-placement": {
+  "file": "zenfire__blog__fire-extinguisher-mounting-height-a-complete-guide-to-proper-placement.json",
+  "type": "post",
+  "modified": "2026-10-07T16:20:34+00:00",
+  "title": "Fire Extinguisher Mounting Height Guide | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/fire-marshal-duties-and-responsibilities-the-job-nobody-notices": {
+  "file": "zenfire__blog__fire-marshal-duties-and-responsibilities-the-job-nobody-notices.json",
+  "type": "post",
+  "modified": "2026-09-25T15:53:48+00:00",
+  "title": "Fire Marshal Duties and Responsibilities | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/fire-pump-churn-test-a-complete-guide-to-nfpa-compliant-testing": {
+  "file": "zenfire__blog__fire-pump-churn-test-a-complete-guide-to-nfpa-compliant-testing.json",
+  "type": "post",
+  "modified": "2026-10-07T16:17:55+00:00",
+  "title": "Fire Pump Churn Test: NFPA 25 Guide | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/fire-safety-techniques-and-tools-that-actually-work": {
+  "file": "zenfire__blog__fire-safety-techniques-and-tools-that-actually-work.json",
+  "type": "post",
+  "modified": "2026-09-25T15:53:42+00:00",
+  "title": "Fire Safety Techniques and Tools That Work | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/nfpa-25-inspection-requirements": {
+  "file": "zenfire__blog__nfpa-25-inspection-requirements.json",
+  "type": "post",
+  "modified": "2026-10-07T16:13:38+00:00",
+  "title": "NFPA 25 Inspection Requirements in 2026 | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/safety-inspection-software": {
+  "file": "zenfire__blog__safety-inspection-software.json",
+  "type": "post",
+  "modified": "2026-10-20T16:30:00+00:00",
+  "title": "Safety Inspection Software for Fire and Life Safety",
+  "noindex": false
+ },
+ "/zenfire/blog/top-10-fire-inspection-software-in-2026": {
+  "file": "zenfire__blog__top-10-fire-inspection-software-in-2026.json",
+  "type": "post",
+  "modified": "2026-06-01T18:21:13+00:00",
+  "title": "Top 10 Fire Inspection Software in 2026 | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/fire-door-inspection-software-a-smarter-way-to-stay-compliant": {
+  "file": "zenfire__blog__fire-door-inspection-software-a-smarter-way-to-stay-compliant.json",
+  "type": "post",
+  "modified": "2026-10-07T16:24:44+00:00",
+  "title": "Fire Door Inspection Software | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/alarm-company-software": {
+  "file": "zenfire__blog__alarm-company-software.json",
+  "type": "post",
+  "modified": "2026-10-20T16:43:07+00:00",
+  "title": "Alarm Company Software for Fire and Security | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/fire-extinguisher-inspection-software-a-contractors-guide": {
+  "file": "zenfire__blog__fire-extinguisher-inspection-software-a-contractors-guide.json",
+  "type": "post",
+  "modified": "2026-10-20T16:35:21+00:00",
+  "title": "Fire Extinguisher Inspection Software Guide | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/fire-inspection-management-how-to-run-a-program-that-does-not-fall-apart": {
+  "file": "zenfire__blog__fire-inspection-management-how-to-run-a-program-that-does-not-fall-apart.json",
+  "type": "post",
+  "modified": "2026-09-25T15:53:52+00:00",
+  "title": "Fire Inspection Management: Run a Better Program",
+  "noindex": false
+ },
+ "/zenfire/blog/inspection-management-system-how-fire-and-life-safety-contractors-run-inspections": {
+  "file": "zenfire__blog__inspection-management-system-how-fire-and-life-safety-contractors-run-inspections.json",
+  "type": "post",
+  "modified": "2026-10-20T16:57:41+00:00",
+  "title": "Inspection Management System for Fire Contractors",
+  "noindex": false
+ },
+ "/zenfire/blog/new-york-smoke-alarm-law-smoke-detectors-carbon-monoxide-rules-and-owner-duties": {
+  "file": "zenfire__blog__new-york-smoke-alarm-law-smoke-detectors-carbon-monoxide-rules-and-owner-duties.json",
+  "type": "post",
+  "modified": "2026-09-25T15:53:57+00:00",
+  "title": "New York Smoke Alarm Law: Owner Duties | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/paperless-safety-inspection-system": {
+  "file": "zenfire__blog__paperless-safety-inspection-system.json",
+  "type": "post",
+  "modified": "2026-10-20T16:46:59+00:00",
+  "title": "Paperless Safety Inspection System Playbook | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/the-fire-alarm-control-panel-explained-a-guide-for-building-owners": {
+  "file": "zenfire__blog__the-fire-alarm-control-panel-explained-a-guide-for-building-owners.json",
+  "type": "post",
+  "modified": "2026-09-14T18:57:37+00:00",
+  "title": "Fire Alarm Control Panel Explained | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/what-happens-if-a-business-fails-a-fire-inspection": {
+  "file": "zenfire__blog__what-happens-if-a-business-fails-a-fire-inspection.json",
+  "type": "post",
+  "modified": "2026-10-20T17:13:38+00:00",
+  "title": "What Happens If a Business Fails a Fire Inspection?",
+  "noindex": false
+ },
+ "/field-service-management/blog/elevator-field-service-automation": {
+  "file": "field-service-management__blog__elevator-field-service-automation.json",
+  "type": "post",
+  "modified": "2026-09-25T15:54:14+00:00",
+  "title": "Elevator Field Service Automation | ZenTrades",
+  "noindex": false
+ },
+ "/field-service-management/blog/elevator-maintenance-management-software": {
+  "file": "field-service-management__blog__elevator-maintenance-management-software.json",
+  "type": "post",
+  "modified": "2026-09-25T15:54:09+00:00",
+  "title": "Elevator Maintenance Management Software Guide",
+  "noindex": false
+ },
+ "/field-service-management/blog/field-service-management-software-the-complete-guide": {
+  "file": "field-service-management__blog__field-service-management-software-the-complete-guide.json",
+  "type": "post",
+  "modified": "2026-09-25T15:54:05+00:00",
+  "title": "Field Service Management Software: Complete Guide",
+  "noindex": false
+ },
+ "/zenfire/blog/egress-door": {
+  "file": "zenfire__blog__egress-door.json",
+  "type": "post",
+  "modified": "2026-10-07T16:28:06+00:00",
+  "title": "Egress Doors: Rules That Keep Them Safe | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/fire-alarm-inspector-career-path": {
+  "file": "zenfire__blog__fire-alarm-inspector-career-path.json",
+  "type": "post",
+  "modified": "2026-10-07T16:19:24+00:00",
+  "title": "Fire Alarm Inspector: Career Path and Pay | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/nfpa-10-fire-extinguisher-inspection-requirements": {
+  "file": "zenfire__blog__nfpa-10-fire-extinguisher-inspection-requirements.json",
+  "type": "post",
+  "modified": "2026-10-07T16:21:55+00:00",
+  "title": "NFPA 10 Extinguisher Inspection Requirements",
+  "noindex": false
+ },
+ "/zenfire/blog/the-proper-use-of-fire-extinguisher": {
+  "file": "zenfire__blog__the-proper-use-of-fire-extinguisher.json",
+  "type": "post",
+  "modified": "2026-10-07T16:23:15+00:00",
+  "title": "Proper Use of a Fire Extinguisher | ZenFire",
+  "noindex": false
+ },
+ "/zenfire/blog/why-fire-hydrant-system-works": {
+  "file": "zenfire__blog__why-fire-hydrant-system-works.json",
+  "type": "post",
+  "modified": "2026-10-07T16:14:45+00:00",
+  "title": "How Fire Hydrant Systems Work | ZenFire",
   "noindex": false
  }
 }
