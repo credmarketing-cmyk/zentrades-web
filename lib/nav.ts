@@ -167,6 +167,32 @@ const GENERAL_FEATURES: [RegExp, string][] = [
   [/^job costing$/, '/feature/estimating-and-invoicing'],
 ];
 
+// Menu and footer labels that go to the redesigned pages (Redesign 26), on
+// every vertical. Features without a redesigned page keep their vertical's
+// own page (resolved below).
+const REDESIGNED_FEATURES: [RegExp, string][] = [
+  [/^all features?$|^see all features$/, '/feature/all-feature'],
+  [/^invoicing and estimates?$/, '/feature/estimate-proposals'],
+  [/^online payments?$/, '/feature/online-payments'],
+  [/^schedul/, '/feature/scheduling-and-dispatching'],
+  [/^crew management$/, '/feature/crew-management'],
+  [/^job costing$/, '/feature/job-costing'],
+];
+const ABOUT_PAGES: Record<string, string> = {
+  zentrades: '/about-us',
+  zenhvac: '/zenhvac/about-us',
+  zenplumbing: '/zenplumbing/about-us',
+  zenelectrical: '/zenelectrical/about-us',
+  zenfire: '/zenfire/about-us',
+};
+
+function redesignedPage(label: string, verticalSlug: string | null): string | null {
+  const n = norm(label);
+  if (/^about us$|^our story$/.test(n)) return ABOUT_PAGES[verticalSlug ?? 'zentrades'];
+  if (verticalSlug === 'zenfire' && /^recurring inspections?$/.test(n)) return '/zenfire/features/recurring-inspection';
+  return REDESIGNED_FEATURES.find(([re]) => re.test(n))?.[1] ?? null;
+}
+
 /**
  * Resolves a menu link to a page that exists. The WordPress menus link to
  * feature URLs that were never published (/zenhvac/feature/crew-management…);
@@ -175,7 +201,10 @@ const GENERAL_FEATURES: [RegExp, string][] = [
  * feature page, then `fallback` (the page's Book a Demo).
  */
 export function resolveLink(href: string, label: string, verticalSlug: string | null, fallback: string): string {
-  if (!href.startsWith('/')) return href;
+  if (!href.startsWith('/') && !/^https?:\/\/(www\.)?zentrades\.pro(\/|$)/.test(href)) return href;
+  const redesigned = redesignedPage(label, verticalSlug);
+  if (redesigned) return redesigned;
+  href = href.replace(/^https?:\/\/(www\.)?zentrades\.pro/, '') || '/';
   const pages = getManifest();
   const p = href.replace(/\/+$/, '') || '/';
   if (LINK_FIXES[p]) return LINK_FIXES[p];
