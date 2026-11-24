@@ -21,15 +21,6 @@ const VERTICAL_HOME: Record<Vertical, string> = {
   electrical: '/zenelectrical',
 };
 
-// Big white logo at the bottom of the footer.
-const FOOTER_LOGO: Record<Vertical, { src: string; alt: string; whiten?: boolean }> = {
-  zentrades: { src: '/redesign/logo-zt-white.webp', alt: 'ZenTrades' },
-  hvac: { src: '/redesign/logo-zh-white.webp', alt: 'ZenHVAC' },
-  plumbing: { src: '/redesign/logo-zp-white.webp', alt: 'ZenPlumbing' },
-  electrical: { src: '/redesign/logo-zel-white.webp', alt: 'ZenElectrical' },
-  fire: { src: '/redesign/logo-zf-white.webp', alt: 'ZenFire' },
-};
-
 export function verticalOf(nav: NavData | null, path: string): Vertical {
   const logo = nav?.logo.src.toLowerCase() ?? '';
   if (/fire/.test(logo)) return 'fire';
@@ -274,8 +265,6 @@ const FOOTER_CSS = `
 .zt-ft .card strong { color: #fff; font-weight: 600; font-size: 14px; }
 .zt-ft .card a { color: #fff; font-weight: 500; }
 .zt-ft .card a:hover { color: #EE5566; }
-.zt-ft .big-logo { width: 100%; height: auto; display: block; }
-.zt-ft .big-logo.whiten { filter: brightness(0) invert(1); }
 .zt-ft .legal { padding-top: 28px; margin-top: 28px; border-top: 1px solid #2A2726; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 13px; color: #8F8984; }
 .zt-ft .legal nav { display: flex; gap: 20px; }
 .zt-ft .legal a { color: #8F8984; }
@@ -292,7 +281,6 @@ const FOOTER_COLS: { title: string; links: string[] }[] = [
 
 export function renderFooter(links: Record<string, string>, vertical: Vertical): string {
   const H = makeHref(links) as (label: string) => string;
-  const logo = FOOTER_LOGO[vertical];
   const cols = FOOTER_COLS.map(
     (c) => `<div class="col"><div class="col-title">${esc(c.title)}</div><ul>${c.links.map((l) => `<li><a ${linkAttrs(H(l))}>${esc(l)}</a></li>`).join('')}</ul></div>`,
   ).join('');
@@ -303,7 +291,6 @@ export function renderFooter(links: Record<string, string>, vertical: Vertical):
     `<div class="cols">${cols}<div class="card"><div class="stars">★★★★★</div><strong>Recognized by field service businesses nationwide</strong>` +
     `<div>236 W 27th St, Floor 12, New York, NY 10001</div><div>A-302, Nyati Tech Park, Kalyani Nagar, Pune 411014</div>` +
     `<a href="tel:+12064568988">(206) 456-8988</a><a href="mailto:hello@zentrades.pro">hello@zentrades.pro</a></div></div>` +
-    `<img class="big-logo${logo.whiten ? ' whiten' : ''}" src="${logo.src}" alt="${logo.alt}" loading="lazy">` +
     `<div class="legal"><span>© ${new Date().getFullYear()} ZenTrades Inc. All rights reserved.</span><nav aria-label="Legal"><a ${linkAttrs(H('Privacy'))}>Privacy</a><a ${linkAttrs(H('Terms'))}>Terms</a></nav></div>` +
     `</div></footer>`
   );
