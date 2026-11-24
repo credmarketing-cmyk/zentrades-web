@@ -102,11 +102,15 @@ class Logic extends DCLogic {
         r:['Keep a record of each unit at the home, so you know what is due and when.',['Equipment records','Service history','Due-date alerts']] },
     };
     const groupDefs = [['MONEY',['invoicing','payments','estimates','costing']],['OPERATIONS',['scheduling','dispatching','project','inventory','customers','reports']],['TEAM',['crew','time','techapp']],['FIRE & INSPECTIONS',['recurring','forms','ireports','deficiency','assets']]];
-    const order = groupDefs.flatMap(g => g[1]);
-    const q = this.state.q.trim().toLowerCase(), mode = this.state.mode, narrow = this.state.vw < 1100;
-    const match = k => !q || (F[k].t + ' ' + F[k].s).toLowerCase().includes(q);
+    const mode = this.state.mode;
+    // Commercial-only features, hidden on the Residential tab.
+    const commercialOnly = ['project','assets'];
+    const inMode = k => mode !== 'residential' || !commercialOnly.includes(k);
+    const order = groupDefs.flatMap(g => g[1]).filter(inMode);
+    const q = this.state.q.trim().toLowerCase(), narrow = this.state.vw < 1100;
+    const match = k => inMode(k) && (!q || (F[k].t + ' ' + F[k].s).toLowerCase().includes(q));
     const visible = order.filter(match);
-    let fk = this.state.feat; if (visible.length && !visible.includes(fk)) fk = visible[0];
+    let fk = this.state.feat; if (visible.length && !visible.includes(fk)) fk = visible[0]; else if (!inMode(fk)) fk = order[0];
     const groups = groupDefs.map(g => ({ t:g[0], items: g[1].filter(match).map(k => { const on = k === fk, f = F[k]; return { t:f.t, s:f.s, icon: ico(f.icon), pick: () => this.setState({ feat:k }), hover: narrow ? () => {} : () => this.setState({ feat:k }),
       row: { display:'flex', alignItems:'center', gap:14, width:'100%', padding:'12px 12px', borderRadius:18, border:'none', cursor:'pointer', fontFamily:'inherit', color: on ? '#FFFFFF' : '#010101', background: on ? '#010101' : 'transparent', transition:'all .25s cubic-bezier(.2,.7,.2,1)' },
       iconBox: { width:44, height:44, borderRadius:13, flexShrink:0, display:'grid', placeItems:'center', background: on ? '#EE5566' : '#FFFFFF', color: on ? '#FFFFFF' : '#EE5566', boxShadow: on ? 'none' : '0 0 0 1px #ECE8E4', transition:'all .25s' },
@@ -150,7 +154,7 @@ class Logic extends DCLogic {
       track: { position:'absolute', left:18, right:18, bottom:12, height:2, borderRadius:2, background: on ? '#2A2726' : 'transparent', overflow:'hidden' },
       fill: on ? { key:'fl' + fi, display:'block', height:'100%', background:'#EE5566', transformOrigin:'left', animation:'zf-prog 3.2s linear forwards', animationPlayState: fhold ? 'paused' : 'running' } : { display:'none' } }; });
     const fd = flowDefs[fi];
-    const flowCur = { n: String(fi + 1).padStart(2,'0'), d: fd[1], feats: fd[3].map(k => ({ t: F[k].t, icon: ico(F[k].icon, 14), go: goFeat(k) })) };
+    const flowCur = { n: String(fi + 1).padStart(2,'0'), d: fd[1], feats: fd[3].filter(inMode).map(k => ({ t: F[k].t, icon: ico(F[k].icon, 14), go: goFeat(k) })) };
     const f = this.state.form, tried = this.state.tried;
     const set = k => e => { const v = e.target.value; this.setState(s => ({ form: { ...s.form, [k]: v } })); };
     const fieldDefs = [['date','Suitable demo date','','date'],['name','Your name','Jordan Lee','text'],['company','Company name','Lee Mechanical Co.','text'],['email','Work email','you@yourcompany.com','email'],['phone','Phone number','(555) 012-3456','tel']];
