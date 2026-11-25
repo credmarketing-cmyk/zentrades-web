@@ -115,7 +115,7 @@ class Logic extends DCLogic {
       avatar: { width:40, height:40, borderRadius:12, display:'grid', placeItems:'center', fontSize:15, fontWeight:600, background: on ? '#EE5566' : '#FDECEE', color: on ? '#FFFFFF' : '#C93347', transition:'all .35s' } }; });
 
     const faqsRaw = [
-      ['How does ZenTrades pricing work?','ZenTrades pricing is tiered by the number of field technicians and back-office users, not a flat one-size-fits-all rate. It’s transparent with no hidden fees and scales whether you’re a solo contractor or a large enterprise. You can start with a basic package and add features and licenses as you grow. You get a custom quote on a short demo call, and you can also try ZenTrades free for 14 days, with no credit card required.'],
+      ['How does ZenTrades pricing work?','ZenTrades pricing is tiered by the number of field technicians and back-office users, not a flat one-size-fits-all rate. It’s transparent with no hidden fees and scales whether you’re a solo contractor or a large enterprise. You can start with a basic package and add features and licenses as you grow. You get a custom quote on a short demo call.'],
       ['Can I add or remove capabilities later?','Yes. Add or remove licenses and modules as your team changes. Changes apply to your next billing cycle, with no penalties.'],
       ['What if I run a multi-location or PE-owned portfolio?','Choose the Multi-company / PE option. You get cross-company dashboards, consolidated reporting, and a dedicated consultant, priced per company.'],
       ['Are there setup or onboarding fees?','Onboarding is included in your plan. Our team helps import customers, equipment, and price books, and trains your office and field staff.'],
